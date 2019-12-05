@@ -4,22 +4,17 @@
 
     <sitemap>
         <loc>http://passionbull.github.io/post-sitemap.xml</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-    </sitemap>
-
-    <sitemap>
-        <loc>http://passionbull.github.io/page-sitemap.xml</loc>
-        <lastmod>2019-11-20T11:48:40.153Z</lastmod>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://passionbull.github.io/category-sitemap.xml</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.858Z</lastmod>
     </sitemap>
 
     <sitemap>
         <loc>http://passionbull.github.io/tag-sitemap.xml</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
     </sitemap>
 
 </sitemapindex>

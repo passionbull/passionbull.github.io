@@ -3,1177 +3,1191 @@
 
 
     <url>
-        <loc>http://passionbull.github.io/tags/easy-signup/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/union/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>http://passionbull.github.io/tags/sct-dev/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-kr/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/zzan/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/sct/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/busy/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/kr-dev/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/kr/</loc>
-        <lastmod>2019-12-04T18:25:14.428Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/sago/</loc>
-        <lastmod>2019-12-04T18:25:14.416Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/sct-diary/</loc>
-        <lastmod>2019-12-04T18:25:14.416Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/kr-diary/</loc>
-        <lastmod>2019-12-04T18:25:14.416Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/hint/</loc>
-        <lastmod>2019-12-04T18:25:14.391Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/sct-altcoin/</loc>
-        <lastmod>2019-12-04T18:25:14.391Z</lastmod>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-freeboard/</loc>
-        <lastmod>2019-12-04T18:25:14.378Z</lastmod>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/sct/</loc>
+        <lastmod>2019-12-05T14:36:33.028Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/union/</loc>
+        <lastmod>2019-12-05T14:36:32.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/zzan/</loc>
+        <lastmod>2019-12-05T14:36:32.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/busy/</loc>
+        <lastmod>2019-12-05T14:36:32.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/kr-dev/</loc>
+        <lastmod>2019-12-05T14:36:32.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/kr/</loc>
+        <lastmod>2019-12-05T14:36:32.678Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/easy-signup/</loc>
+        <lastmod>2019-12-05T14:36:32.298Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/sago/</loc>
+        <lastmod>2019-12-05T14:36:31.858Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/sct-diary/</loc>
+        <lastmod>2019-12-05T14:36:31.858Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/kr-diary/</loc>
+        <lastmod>2019-12-05T14:36:31.858Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/hint/</loc>
+        <lastmod>2019-12-05T14:36:31.835Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/sct-altcoin/</loc>
+        <lastmod>2019-12-05T14:36:31.835Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/book/</loc>
-        <lastmod>2019-12-04T18:25:14.361Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-book/</loc>
-        <lastmod>2019-12-04T18:25:14.361Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-market/</loc>
-        <lastmod>2019-12-04T18:25:14.347Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.789Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/palnet/</loc>
-        <lastmod>2019-12-04T18:25:13.883Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.288Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/dev/</loc>
-        <lastmod>2019-12-04T18:25:13.883Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.288Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/bookitsuda/</loc>
-        <lastmod>2019-12-04T18:25:13.099Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/engrave/</loc>
-        <lastmod>2019-12-04T18:25:13.099Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.240Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steemfest/</loc>
-        <lastmod>2019-12-04T18:25:13.064Z</lastmod>
+        <lastmod>2019-12-05T14:36:31.206Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-qna/</loc>
-        <lastmod>2019-12-04T18:25:10.325Z</lastmod>
+        <lastmod>2019-12-05T14:36:27.840Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/poll/</loc>
-        <lastmod>2019-12-04T18:25:09.180Z</lastmod>
+        <lastmod>2019-12-05T14:36:26.710Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/dpoll/</loc>
-        <lastmod>2019-12-04T18:25:09.180Z</lastmod>
+        <lastmod>2019-12-05T14:36:26.710Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/game/</loc>
-        <lastmod>2019-12-04T18:25:09.180Z</lastmod>
+        <lastmod>2019-12-05T14:36:26.710Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jjm/</loc>
-        <lastmod>2019-12-04T18:25:08.759Z</lastmod>
+        <lastmod>2019-12-05T14:36:26.340Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-notice/</loc>
-        <lastmod>2019-12-04T18:25:08.735Z</lastmod>
+        <lastmod>2019-12-05T14:36:26.317Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/palja/</loc>
-        <lastmod>2019-12-04T18:25:08.387Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.972Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-consumer/</loc>
-        <lastmod>2019-12-04T18:25:08.387Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.972Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/buay/</loc>
-        <lastmod>2019-12-04T18:25:08.005Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.574Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/best-drama/</loc>
-        <lastmod>2019-12-04T18:25:08.000Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/aaa/</loc>
-        <lastmod>2019-12-04T18:25:08.000Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.569Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/blocktradescontest/</loc>
-        <lastmod>2019-12-04T18:25:07.983Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/roadtosteemfest/</loc>
-        <lastmod>2019-12-04T18:25:07.983Z</lastmod>
+        <lastmod>2019-12-05T14:36:25.553Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-invest/</loc>
-        <lastmod>2019-12-04T18:25:06.814Z</lastmod>
+        <lastmod>2019-12-05T14:36:24.421Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-freeboaed/</loc>
-        <lastmod>2019-12-04T18:25:06.212Z</lastmod>
+        <lastmod>2019-12-05T14:36:23.258Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-movie/</loc>
-        <lastmod>2019-12-04T18:25:05.153Z</lastmod>
+        <lastmod>2019-12-05T14:36:21.879Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-en/</loc>
-        <lastmod>2019-12-04T18:25:05.126Z</lastmod>
+        <lastmod>2019-12-05T14:36:21.855Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/spt/</loc>
-        <lastmod>2019-12-04T18:25:04.030Z</lastmod>
+        <lastmod>2019-12-05T14:36:20.730Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-game/</loc>
-        <lastmod>2019-12-04T18:25:04.030Z</lastmod>
+        <lastmod>2019-12-05T14:36:20.730Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-otc/</loc>
-        <lastmod>2019-12-04T18:25:00.334Z</lastmod>
+        <lastmod>2019-12-05T14:36:17.404Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-travel/</loc>
-        <lastmod>2019-12-04T18:24:59.345Z</lastmod>
+        <lastmod>2019-12-05T14:36:16.995Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/scr-kr/</loc>
-        <lastmod>2019-12-04T18:24:59.322Z</lastmod>
+        <lastmod>2019-12-05T14:36:16.971Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/mydream/</loc>
-        <lastmod>2019-12-04T18:24:58.587Z</lastmod>
+        <lastmod>2019-12-05T14:36:15.620Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/food/</loc>
-        <lastmod>2019-12-04T18:24:58.532Z</lastmod>
+        <lastmod>2019-12-05T14:36:15.574Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/travel/</loc>
-        <lastmod>2019-12-04T18:24:58.523Z</lastmod>
+        <lastmod>2019-12-05T14:36:15.568Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/krwp/</loc>
-        <lastmod>2019-12-04T18:24:56.385Z</lastmod>
+        <lastmod>2019-12-05T14:36:14.081Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steem/</loc>
-        <lastmod>2019-12-04T18:24:55.643Z</lastmod>
+        <lastmod>2019-12-05T14:36:13.281Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-userguide/</loc>
-        <lastmod>2019-12-04T18:24:53.458Z</lastmod>
+        <lastmod>2019-12-05T14:36:10.974Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/coinstory/</loc>
-        <lastmod>2019-12-04T18:24:49.662Z</lastmod>
+        <lastmod>2019-12-05T14:36:08.313Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/freeboard/</loc>
-        <lastmod>2019-12-04T18:24:49.662Z</lastmod>
+        <lastmod>2019-12-05T14:36:08.313Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/liv/</loc>
-        <lastmod>2019-12-04T18:24:49.284Z</lastmod>
+        <lastmod>2019-12-05T14:36:07.936Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/aws/</loc>
-        <lastmod>2019-12-04T18:24:47.618Z</lastmod>
+        <lastmod>2019-12-05T14:36:06.258Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/setting/</loc>
-        <lastmod>2019-12-04T18:24:47.618Z</lastmod>
+        <lastmod>2019-12-05T14:36:06.258Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steemmonsters/</loc>
-        <lastmod>2019-12-04T18:24:47.593Z</lastmod>
+        <lastmod>2019-12-05T14:36:06.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tripsteem/</loc>
-        <lastmod>2019-12-04T18:24:46.353Z</lastmod>
+        <lastmod>2019-12-05T14:36:04.659Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sct-ubi/</loc>
-        <lastmod>2019-12-04T18:24:44.700Z</lastmod>
+        <lastmod>2019-12-05T14:36:03.186Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/art/</loc>
-        <lastmod>2019-12-04T18:24:43.886Z</lastmod>
+        <lastmod>2019-12-05T14:36:02.399Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/photo/</loc>
-        <lastmod>2019-12-04T18:24:43.886Z</lastmod>
+        <lastmod>2019-12-05T14:36:02.399Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/suggest/</loc>
-        <lastmod>2019-12-04T18:24:43.852Z</lastmod>
+        <lastmod>2019-12-05T14:36:02.368Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-english/</loc>
-        <lastmod>2019-12-04T18:24:42.233Z</lastmod>
+        <lastmod>2019-12-05T14:36:00.424Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-event/</loc>
-        <lastmod>2019-12-04T18:24:42.233Z</lastmod>
+        <lastmod>2019-12-05T14:36:00.424Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/mini/</loc>
-        <lastmod>2019-12-04T18:24:40.973Z</lastmod>
+        <lastmod>2019-12-05T14:35:59.605Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/habit/</loc>
-        <lastmod>2019-12-04T18:24:40.057Z</lastmod>
+        <lastmod>2019-12-05T14:35:58.733Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-dapp/</loc>
-        <lastmod>2019-12-04T18:24:39.706Z</lastmod>
+        <lastmod>2019-12-05T14:35:58.216Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/bnw100/</loc>
-        <lastmod>2019-12-04T18:24:39.263Z</lastmod>
+        <lastmod>2019-12-05T14:35:57.834Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steem-engine/</loc>
-        <lastmod>2019-12-04T18:24:39.189Z</lastmod>
+        <lastmod>2019-12-05T14:35:57.761Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/weedcash/</loc>
-        <lastmod>2019-12-04T18:24:38.694Z</lastmod>
+        <lastmod>2019-12-05T14:35:57.394Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/test/</loc>
-        <lastmod>2019-12-04T18:24:38.694Z</lastmod>
+        <lastmod>2019-12-05T14:35:57.394Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tooza/</loc>
-        <lastmod>2019-12-04T18:24:37.389Z</lastmod>
+        <lastmod>2019-12-05T14:35:56.264Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/movie/</loc>
-        <lastmod>2019-12-04T18:24:37.005Z</lastmod>
+        <lastmod>2019-12-05T14:35:55.918Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/bestmovie/</loc>
-        <lastmod>2019-12-04T18:24:37.005Z</lastmod>
+        <lastmod>2019-12-05T14:35:55.918Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-writing/</loc>
-        <lastmod>2019-12-04T18:24:35.154Z</lastmod>
+        <lastmod>2019-12-05T14:35:53.929Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jjangjjangman/</loc>
-        <lastmod>2019-12-04T18:24:35.154Z</lastmod>
+        <lastmod>2019-12-05T14:35:53.929Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tasteem-kr/</loc>
-        <lastmod>2019-12-04T18:24:34.467Z</lastmod>
+        <lastmod>2019-12-05T14:35:53.251Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tasteem/</loc>
-        <lastmod>2019-12-04T18:24:34.467Z</lastmod>
+        <lastmod>2019-12-05T14:35:53.251Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/coinkorea/</loc>
-        <lastmod>2019-12-04T18:24:33.635Z</lastmod>
+        <lastmod>2019-12-05T14:35:52.429Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-food/</loc>
-        <lastmod>2019-12-04T18:24:32.878Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.732Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/basic/</loc>
-        <lastmod>2019-12-04T18:24:32.425Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tutorial/</loc>
-        <lastmod>2019-12-04T18:24:32.425Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.143Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/ai/</loc>
-        <lastmod>2019-12-04T18:24:32.402Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/toy/</loc>
-        <lastmod>2019-12-04T18:24:32.402Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steemhunt/</loc>
-        <lastmod>2019-12-04T18:24:32.402Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/robot/</loc>
-        <lastmod>2019-12-04T18:24:32.402Z</lastmod>
+        <lastmod>2019-12-05T14:35:51.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/diary/</loc>
-        <lastmod>2019-12-04T18:24:32.059Z</lastmod>
+        <lastmod>2019-12-05T14:35:50.769Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/busy-jjangjjangman/</loc>
-        <lastmod>2019-12-04T18:24:32.045Z</lastmod>
+        <lastmod>2019-12-05T14:35:50.756Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/buk/</loc>
-        <lastmod>2019-12-04T18:24:31.062Z</lastmod>
+        <lastmod>2019-12-05T14:35:49.444Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/iot/</loc>
-        <lastmod>2019-12-04T18:24:30.448Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.973Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-study/</loc>
-        <lastmod>2019-12-04T18:24:30.448Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.973Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/prototype/</loc>
-        <lastmod>2019-12-04T18:24:30.412Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/development/</loc>
-        <lastmod>2019-12-04T18:24:30.412Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/utopian-io/</loc>
-        <lastmod>2019-12-04T18:24:30.412Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-newbie/</loc>
-        <lastmod>2019-12-04T18:24:29.703Z</lastmod>
+        <lastmod>2019-12-05T14:35:48.513Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/wordpress/</loc>
-        <lastmod>2019-12-04T18:24:29.034Z</lastmod>
+        <lastmod>2019-12-05T14:35:47.857Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/eosknights/</loc>
-        <lastmod>2019-12-04T18:24:28.346Z</lastmod>
+        <lastmod>2019-12-05T14:35:47.164Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/eos/</loc>
-        <lastmod>2019-12-04T18:24:28.346Z</lastmod>
+        <lastmod>2019-12-05T14:35:47.164Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-game/</loc>
-        <lastmod>2019-12-04T18:24:28.346Z</lastmod>
+        <lastmod>2019-12-05T14:35:47.164Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/ros/</loc>
-        <lastmod>2019-12-04T18:24:27.919Z</lastmod>
+        <lastmod>2019-12-05T14:35:46.764Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/svn/</loc>
-        <lastmod>2019-12-04T18:24:26.469Z</lastmod>
+        <lastmod>2019-12-05T14:35:45.718Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/git/</loc>
-        <lastmod>2019-12-04T18:24:26.469Z</lastmod>
+        <lastmod>2019-12-05T14:35:45.718Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/dapp/</loc>
-        <lastmod>2019-12-04T18:24:26.402Z</lastmod>
+        <lastmod>2019-12-05T14:35:45.653Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-daily/</loc>
-        <lastmod>2019-12-04T18:24:25.834Z</lastmod>
+        <lastmod>2019-12-05T14:35:45.222Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steempress/</loc>
-        <lastmod>2019-12-04T18:24:25.065Z</lastmod>
+        <lastmod>2019-12-05T14:35:44.328Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/smarthome/</loc>
-        <lastmod>2019-12-04T18:24:24.674Z</lastmod>
+        <lastmod>2019-12-05T14:35:43.944Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/dclick/</loc>
-        <lastmod>2019-12-04T18:24:23.449Z</lastmod>
+        <lastmod>2019-12-05T14:35:42.830Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/warpsteem/</loc>
-        <lastmod>2019-12-04T18:24:23.417Z</lastmod>
+        <lastmod>2019-12-05T14:35:42.798Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/hello/</loc>
-        <lastmod>2019-12-04T18:24:22.714Z</lastmod>
+        <lastmod>2019-12-05T14:35:42.095Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-oversea/</loc>
-        <lastmod>2019-12-04T18:24:20.854Z</lastmod>
+        <lastmod>2019-12-05T14:35:40.224Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/daily/</loc>
-        <lastmod>2019-12-04T18:24:19.614Z</lastmod>
+        <lastmod>2019-12-05T14:35:39.136Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/tech/</loc>
-        <lastmod>2019-12-04T18:24:18.540Z</lastmod>
+        <lastmod>2019-12-05T14:35:37.721Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-arduino/</loc>
-        <lastmod>2019-12-04T18:24:18.230Z</lastmod>
+        <lastmod>2019-12-05T14:35:36.797Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/python/</loc>
-        <lastmod>2019-12-04T18:24:17.503Z</lastmod>
+        <lastmod>2019-12-05T14:35:35.765Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/raspberrypi/</loc>
-        <lastmod>2019-12-04T18:24:17.095Z</lastmod>
+        <lastmod>2019-12-05T14:35:35.343Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/webtoon/</loc>
-        <lastmod>2019-12-04T18:24:16.443Z</lastmod>
+        <lastmod>2019-12-05T14:35:35.004Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/marvel/</loc>
-        <lastmod>2019-12-04T18:24:16.121Z</lastmod>
+        <lastmod>2019-12-05T14:35:34.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/product/</loc>
-        <lastmod>2019-12-04T18:24:16.121Z</lastmod>
+        <lastmod>2019-12-05T14:35:34.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kids/</loc>
-        <lastmod>2019-12-04T18:24:16.121Z</lastmod>
+        <lastmod>2019-12-05T14:35:34.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/leetcode/</loc>
-        <lastmod>2019-12-04T18:24:15.738Z</lastmod>
+        <lastmod>2019-12-05T14:35:33.937Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-market/</loc>
-        <lastmod>2019-12-04T18:24:15.408Z</lastmod>
+        <lastmod>2019-12-05T14:35:33.516Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/technology/</loc>
-        <lastmod>2019-12-04T18:24:14.338Z</lastmod>
+        <lastmod>2019-12-05T14:35:32.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/coding/</loc>
-        <lastmod>2019-12-04T18:24:14.338Z</lastmod>
+        <lastmod>2019-12-05T14:35:32.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steemitnamechallenge/</loc>
-        <lastmod>2019-12-04T18:24:11.917Z</lastmod>
+        <lastmod>2019-12-05T14:35:29.975Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/roys-market/</loc>
-        <lastmod>2019-12-04T18:24:11.585Z</lastmod>
+        <lastmod>2019-12-05T14:35:29.606Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steemfighter/</loc>
-        <lastmod>2019-12-04T18:24:10.837Z</lastmod>
+        <lastmod>2019-12-05T14:35:29.248Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/roys-marekt/</loc>
-        <lastmod>2019-12-04T18:24:09.543Z</lastmod>
+        <lastmod>2019-12-05T14:35:28.429Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jiwon31/</loc>
-        <lastmod>2019-12-04T18:24:03.727Z</lastmod>
+        <lastmod>2019-12-05T14:35:23.376Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jiwon30/</loc>
-        <lastmod>2019-12-04T18:24:00.327Z</lastmod>
+        <lastmod>2019-12-05T14:35:19.088Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/busu/</loc>
-        <lastmod>2019-12-04T18:23:58.258Z</lastmod>
+        <lastmod>2019-12-05T14:35:16.729Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jacobyu/</loc>
-        <lastmod>2019-12-04T18:23:54.891Z</lastmod>
+        <lastmod>2019-12-05T14:35:13.475Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jiwon27/</loc>
-        <lastmod>2019-12-04T18:23:51.840Z</lastmod>
+        <lastmod>2019-12-05T14:35:09.859Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steepshot/</loc>
-        <lastmod>2019-12-04T18:23:51.840Z</lastmod>
+        <lastmod>2019-12-05T14:35:09.859Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/muksteem/</loc>
-        <lastmod>2019-12-04T18:23:50.142Z</lastmod>
+        <lastmod>2019-12-05T14:35:07.621Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/ourselves/</loc>
-        <lastmod>2019-12-04T18:23:49.623Z</lastmod>
+        <lastmod>2019-12-05T14:35:07.277Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/photography/</loc>
-        <lastmod>2019-12-04T18:23:49.297Z</lastmod>
+        <lastmod>2019-12-05T14:35:06.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/newbie/</loc>
-        <lastmod>2019-12-04T18:23:49.297Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/jiwon25/</loc>
-        <lastmod>2019-12-04T18:23:49.004Z</lastmod>
+        <lastmod>2019-12-05T14:35:06.938Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sevendaybnwchallenge/</loc>
-        <lastmod>2019-12-04T18:23:49.004Z</lastmod>
+        <lastmod>2019-12-05T14:35:06.633Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/jiwon25/</loc>
+        <lastmod>2019-12-05T14:35:06.633Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/photograpy/</loc>
-        <lastmod>2019-12-04T18:23:48.638Z</lastmod>
+        <lastmod>2019-12-05T14:35:06.285Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-life/</loc>
-        <lastmod>2019-12-04T18:23:44.664Z</lastmod>
+        <lastmod>2019-12-05T14:35:03.155Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/eastsea/</loc>
-        <lastmod>2019-12-04T18:23:43.401Z</lastmod>
+        <lastmod>2019-12-05T14:35:02.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/sunrise/</loc>
-        <lastmod>2019-12-04T18:23:43.401Z</lastmod>
+        <lastmod>2019-12-05T14:35:02.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/snek/</loc>
-        <lastmod>2019-12-04T18:23:43.401Z</lastmod>
+        <lastmod>2019-12-05T14:35:02.443Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-friendship/</loc>
-        <lastmod>2019-12-04T18:23:43.084Z</lastmod>
+        <lastmod>2019-12-05T14:35:02.125Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-iot/</loc>
-        <lastmod>2019-12-04T18:23:42.371Z</lastmod>
+        <lastmod>2019-12-05T14:35:01.417Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-ai/</loc>
-        <lastmod>2019-12-04T18:23:42.371Z</lastmod>
+        <lastmod>2019-12-05T14:35:01.417Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jiwon23/</loc>
-        <lastmod>2019-12-04T18:23:42.371Z</lastmod>
+        <lastmod>2019-12-05T14:35:01.417Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-news/</loc>
-        <lastmod>2019-12-04T18:23:42.330Z</lastmod>
+        <lastmod>2019-12-05T14:35:01.375Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/steem-dev/</loc>
-        <lastmod>2019-12-04T18:23:41.506Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.956Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/face-recognition/</loc>
-        <lastmod>2019-12-04T18:23:41.506Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.956Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/faceid/</loc>
-        <lastmod>2019-12-04T18:23:41.506Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.956Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/iphone/</loc>
-        <lastmod>2019-12-04T18:23:41.506Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.956Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/face/</loc>
-        <lastmod>2019-12-04T18:23:41.506Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.956Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/graduate/</loc>
-        <lastmod>2019-12-04T18:23:41.180Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-work/</loc>
-        <lastmod>2019-12-04T18:23:41.180Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>http://passionbull.github.io/tags/kr-guide/</loc>
-        <lastmod>2019-12-04T18:23:40.840Z</lastmod>
+        <lastmod>2019-12-05T14:35:00.047Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-join/</loc>
-        <lastmod>2019-12-04T18:23:40.840Z</lastmod>
+        <lastmod>2019-12-05T14:34:59.418Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/kr-guide/</loc>
+        <lastmod>2019-12-05T14:34:59.418Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/vision/</loc>
-        <lastmod>2019-12-04T18:23:40.160Z</lastmod>
+        <lastmod>2019-12-05T14:34:58.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/jacob/</loc>
-        <lastmod>2019-12-04T18:23:40.160Z</lastmod>
+        <lastmod>2019-12-05T14:34:58.448Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/kr-financial/</loc>
-        <lastmod>2019-12-04T18:23:39.801Z</lastmod>
+        <lastmod>2019-12-05T14:34:58.105Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/wordpress-steem/</loc>
-        <lastmod>2019-12-04T18:23:39.474Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.777Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/love/</loc>
-        <lastmod>2019-12-04T18:23:39.474Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.777Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/littlefigther/</loc>
-        <lastmod>2019-12-04T18:23:39.175Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.477Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/lf2/</loc>
-        <lastmod>2019-12-04T18:23:39.175Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.477Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/f-lf2/</loc>
-        <lastmod>2019-12-04T18:23:39.175Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.477Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>http://passionbull.github.io/tags/introducemyself/</loc>
-        <lastmod>2019-12-04T18:23:38.854Z</lastmod>
+        <lastmod>2019-12-05T14:34:57.165Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>http://passionbull.github.io/tags/introducmyself/</loc>
-        <lastmod>2019-12-04T18:23:38.525Z</lastmod>
+        <loc>http://passionbull.github.io/tags/me/</loc>
+        <lastmod>2019-12-05T14:34:56.470Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/about/</loc>
+        <lastmod>2019-12-05T14:34:56.470Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>http://passionbull.github.io/tags/profile/</loc>
+        <lastmod>2019-12-05T14:34:56.470Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
