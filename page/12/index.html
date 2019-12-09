@@ -219,6 +219,121 @@
     <div class="card">
     <!-- 
     <div class="card-image">
+        <a href="/What-is-ros-control/" class="image is-7by1">
+            <img class="thumbnail" src="http://wiki.ros.org/ros_control?action=AttachFile&amp;do=get&amp;target=gazebo_ros_control.png" alt="What is ros-control">
+        </a>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-11-25T21:54:36.000Z">2019-11-26</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/개발/">개발</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/">로봇</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/ROS/">ROS</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    4 minutes read (About 574 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/What-is-ros-control/">What is ros-control</a>
+            
+        </h1>
+        <div class="content">
+            <p>I wrote summary about ros control.<br>What is ros-control?<br>How to use ros-control?<br>Thank you.</p>
+<p></p><h1>ros-control</h1><p></p>
+<p></p><blockquote><p><a href="http://wiki.ros.org/ros_control" target="_blank" rel="noopener">http://wiki.ros.org/ros_control</a></p></blockquote><p></p>
+<p> </p><br><blockquote><br><ul><br><li>A set of packages that include controller interfaces, controller managers, transmissions and hardware_interfaces.</li><br><li>The ros_control packages are a rewrite of the <a href="http://wiki.ros.org/pr2_mechanism" target="_blank" rel="noopener">pr2_mechanism</a> packages to make controllers generic to all robots beyond just the PR2.</li><br><li>The ros_control packages takes as <strong>input the joint state data</strong> from your robot&#x2019;s actuator&#x2019;s encoders and an input set point. It uses a generic control loop feedback mechanism, typically a PID controller, to control the output, typically effort, sent to your actuators. ros_control gets more complicated for physical mechanisms that do not have one-to-one mappings of joint positions, efforts, etc but these scenarios are accounted for using transmissions.</li><br></ul><br></blockquote><br><p> </p><br><p>There are some modules.</p><br><ul><br><li>Controller manager</li><br><li>Controller</li><br><li>Hardware interface</li><br></ul><br><p><img src="http://wiki.ros.org/ros_control?action=AttachFile&amp;do=get&amp;target=gazebo_ros_control.png" alt="ros control"></p>
+
+<p><img src="https://bitbucket.org/osrf/gazebo_tutorials/raw/default/ros_control/Gazebo_ros_transmission.png"></p><br><p><a href="http://gazebosim.org/tutorials/?tut=ros_control" target="_blank" rel="noopener">http://gazebosim.org/tutorials/?tut=ros_control</a></p><br><p>Controller don&#x2019;t care which module (simulation or hardware) provide data.</p><br><p>Controller needs <strong>joint state info</strong> and <strong>joint command info</strong>.</p><br><p> </p><br><hr><br><h2>Controller</h2><br><p><img class="alignnone wp-image-1269 size-large" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-10-44-13-1024x631.png" alt="" width="640" height="394" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-10-44-13-1024x631.png 1024w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-10-44-13-300x185.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-10-44-13-768x473.png 768w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-10-44-13.png 1241w" sizes="(max-width: 640px) 100vw, 640px"></p><br><p>There are many controller on ros-control.</p><br><p>I used <strong>joint state_controller</strong> and<strong> joint_trajectory_controller</strong> for head control.</p><br><p>You need to set control parameter (PID gain, velocity_ff, etc.)</p><br><p>In control.yaml, head_controller has two joint (pan_joint and tilt_joint) and make trajectories.</p><br><blockquote><p>Trajectories are specified as a set of waypoints to be reached at specific time instants, which the controller attempts to execute as well as the mechanism allows. Waypoints consist of positions, and optionally velocities and accelerations.</p></blockquote><br><p> </p><br><p><img class="alignnone wp-image-1271 size-full" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-44-07.png" alt="" width="835" height="546" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-44-07.png 835w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-44-07-300x196.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-44-07-768x502.png 768w" sizes="(max-width: 835px) 100vw, 835px"></p><br><hr><br><h2>Controller_manager</h2><br><p>controller_manager manages some controllers</p><br><p>controller_manager needs to load controllers.</p><br><blockquote><p>&lt;!&#x2013; Load joint controller configurations from YAML file to parameter server &#x2013;&gt;<br><br><rosparam file="&#x201D;$(find" cam_pan_tilt)="" config="" control.yaml”="" command="&#x201D;load&#x201D;/"></rosparam></p><br><p>&lt;node name=&#x201D;controller_spawner&#x201D; pkg=&#x201D;controller_manager&#x201D; type=&#x201D;spawner&#x201D; respawn=&#x201D;false&#x201D;<br><br>output=&#x201D;screen&#x201D; ns=&#x201D;/gretchen&#x201D; args=&#x201D;joint_state_controller<br><br>head_controller&#x201D;/&gt;</p></blockquote><br><hr><br><h2>RQT_GRAPH</h2><br><p><img class="alignnone wp-image-1274 size-large" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-47-06-1024x385.png" alt="" width="640" height="241" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-47-06-1024x385.png 1024w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-47-06-300x113.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-47-06-768x289.png 768w" sizes="(max-width: 640px) 100vw, 640px"></p><br><p><img class="alignnone wp-image-1281 " src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-25-26-e1542346016674.png" alt="" width="631" height="529" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-25-26-e1542346016674.png 812w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-25-26-e1542346016674-300x252.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-25-26-e1542346016674-768x644.png 768w" sizes="(max-width: 631px) 100vw, 631px"></p><br><p> </p><br><p> </p><br><hr><br><h2>How to connect real robot</h2><br><p>need to costruct hardware_inferface</p><br><p>It is hardware_interface example.</p><br><ul><br><li><a href="https://github.com/ros-controls/ros_control/wiki/hardware_interface" target="_blank" rel="noopener">https://github.com/ros-controls/ros_control/wiki/hardware_interface</a></li><br></ul><br><p>ROBOTICS made hardware_interface of dynamixel motor for ros-control.</p><br><hr><br><h2>Example</h2><br><h3>1) Head Controller</h3><br><p>Head controller control pan and tilt. input of the controller is tf, joint_states, head_controller/state</p><br><ul><br><li>tf<br><ul><br><li>tf is relationship between frames</li><br><li><br><blockquote><p>tf is a package that lets the user keep track of multiple coordinate frames over time. tf maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time.</p></blockquote><br></li><br></ul><br></li><br></ul><br><p><img class="alignnone size-medium wp-image-1280" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-07-47-300x212.png" alt="" width="300" height="212" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-07-47-300x212.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-07-47-768x544.png 768w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-07-47-1024x725.png 1024w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-07-47.png 1100w" sizes="(max-width: 300px) 100vw, 300px"></p><br><ul><br><li>joint_states<br><ul><br><li>it is raw data from motor controller</li><br></ul><br></li><br></ul><br><p><img class="alignnone size-full wp-image-1278" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-04-40.png" alt="" width="542" height="174" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-04-40.png 542w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-14-04-40-300x96.png 300w" sizes="(max-width: 542px) 100vw, 542px"></p><br><ul><br><li>head_controller/state<br><ul><br><li>desired, actual, error check for control</li><br><li>it is calculated by controller.</li><br></ul><br></li><br></ul><br><p><img class="alignnone size-full wp-image-1277" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-59-44.png" alt="" width="584" height="554" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-59-44.png 584w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-59-44-300x285.png 300w" sizes="(max-width: 584px) 100vw, 584px"></p><br><p>output</p><br><ul><br><li>head_controller/command<br><ul><br><li>set radian postion at each joint</li><br></ul><br></li><br></ul><br><p><img class="alignnone wp-image-1276 size-full" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-54-31-e1542344179497.png" alt="" width="651" height="328" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-54-31-e1542344179497.png 651w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-16-13-54-31-e1542344179497-300x151.png 300w" sizes="(max-width: 651px) 100vw, 651px"></p><br><h2>2) Other robot</h2><br><p>You can easily control the robot manipulator using ros-control and moveit.</p><br><p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/NTrmUOY083Y?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></p><br><h2>3) Simple pan title model</h2><br><p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/J3A2fBVVQjI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></p><br><p>1. User click a point</p><br><p>2. make target_line using the point</p><br><p>Target_line consist of those</p><br><ul><br><li>geometry_msgs/PointStamped target</li><br><li>geometry_msgs/Vector3 pointing_axis</li><br><li>string pointing_frame</li><br><li>duration min_duration</li><br><li>float64 max_velocity</li><br></ul><br><p>3. calculate inverse kinematics for getting joint angles</p><br><p>4. publish angle on each joint</p><br><p>5. move</p><br><hr><br><h2>Why it is need?</h2><br><p>Once control part constructed using ros-package.</p><br><p>Perception part focus recognition and just publish u,v.</p><br><h2>Reference</h2><br><ul><br><li><a href="http://wiki.ros.org/ros_control" target="_blank" rel="noopener">http://wiki.ros.org/ros_control</a></li><br><li><a href="http://gazebosim.org/tutorials/?tut=ros_control" target="_blank" rel="noopener">http://gazebosim.org/tutorials/?tut=ros_control</a></li><br><li><a href="http://wiki.ros.org/joint_trajectory_controller" target="_blank" rel="noopener">http://wiki.ros.org/joint_trajectory_controller</a></li><br><li><a href="https://pinkwink.kr/1013" target="_blank" rel="noopener">https://pinkwink.kr/1013</a></li><br><li><a href="https://github.com/ros-controls/ros_control/wiki/hardware_interface" target="_blank" rel="noopener">https://github.com/ros-controls/ros_control/wiki/hardware_interface</a></li><br></ul><br><p> </p>
+
+
+<hr>
+<p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/1268-what-is-ros-control" target="_blank" rel="noopener">&#x2018;What is ros-control&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    <!-- 
+    <div class="card-image">
+        <a href="/Ros_control와--azebo를-활용한-pan-tilt-control/" class="image is-7by1">
+            <img class="thumbnail" src="https://passionbull.net/wp-content/uploads/2018/11/스크린샷-2018-11-15-18-21-10-1024x595.png" alt="Ros_control와 gazebo를 활용한 pan/tilt control">
+        </a>
+    </div>
+     -->
+    <div class="card-content article ">
+        
+        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
+            <div class="level-left">
+                <time class="level-item has-text-grey" datetime="2019-11-25T21:54:06.000Z">2019-11-26</time>
+                
+                <div class="level-item">
+                <a class="has-link-grey -link" href="/categories/개발/">개발</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/">로봇</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/ROS/">ROS</a>
+                </div>
+                
+                
+                <span class="level-item has-text-grey">
+                    
+                    
+                    6 minutes read (About 929 words)
+                </span>
+                
+                
+            </div>
+        </div>
+        
+        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
+            
+                <a class="has-link-black-ter" href="/Ros_control와--azebo를-활용한-pan-tilt-control/">Ros_control와 gazebo를 활용한 pan/tilt control</a>
+            
+        </h1>
+        <div class="content">
+            <p>&#xB85C;&#xBD07;&#xD314;&#xC774;&#xB098; &#xBA38;&#xB9AC; &#xB4F1; &#xC5D1;&#xCE04;&#xC5D0;&#xC774;&#xD130;&#xB97C; &#xC6D0;&#xD558;&#xB294; &#xACF3;&#xC73C;&#xB85C; &#xC81C;&#xC5B4;&#xD558;&#xB294; &#xAC83;&#xC740; &#xC5B4;&#xB824;&#xC6B4; &#xC77C;&#xC774;&#xB2E4;.</p><br><p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;, &#xB85C;&#xBD07; &#xD314;&#xB85C; &#xC0AC;&#xACFC;&#xB97C; &#xC7A1;&#xB294;&#xB2E4;&#xACE0; &#xD55C;&#xB2E4;.</p><br><p>&#xC0AC;&#xACFC;&#xB97C; &#xC7A1;&#xAE30; &#xC704;&#xD574;, &#xB85C;&#xBD07; &#xD314;&#xC758; &#xC190;&#xAC00;&#xB77D; (End effector)&#xC774; &#xBAA9;&#xD45C;&#xD558;&#xB294; &#xC704;&#xCE58;&#xB85C; &#xAC00;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; &#xD314;&#xC758; &#xAD00;&#xC808; (Joint)&#xB4E4;&#xC774; &#xAC01;&#xB3C4;&#xB97C; &#xC801;&#xC808;&#xD788; &#xC124;&#xC815;&#xB418;&#xC57C;&#xD55C;&#xB2E4;.</p><br><p>&#xC74C;.. &#xC0AC;&#xB78C;&#xC740; &#xC790;&#xC5F0;&#xC2A4;&#xB7FD;&#xAC8C; &#xB418;&#xC9C0;&#xB9CC; &#xB85C;&#xBD07;&#xC774; &#xC0AC;&#xACFC;&#xB97C; &#xC7A1;&#xAE30; &#xC704;&#xD574; &#xAD00;&#xC808;&#xB4E4;&#xC758; &#xAC01;&#xB3C4;&#xB97C; &#xACC4;&#xC0B0;&#xD574;&#xC57C;&#xD55C;&#xB2E4;. &#xC774;&#xAC83;&#xC744; &#xC5ED;&#xAE30;&#xAD6C;&#xD559;&#xC774;&#xB77C;&#xACE0; &#xD55C;&#xB2E4;.</p><br><p>&#xD558;&#xC9C0;&#xB9CC; &#xC5ED;&#xAE30;&#xAD6C;&#xD559;&#xC744; &#xACF5;&#xBD80;&#xB97C; &#xD588;&#xB2E4;&#xACE0; &#xD558;&#xB354;&#xB77C;&#xB3C4; &#xCF54;&#xB4DC;&#xB85C; &#xC791;&#xC131;&#xD558;&#xB294; &#xAC83;&#xC740; &#xC5B4;&#xB824;&#xC6B0;&#xBA70;, &#xC790;&#xC720;&#xB3C4;&#xAC00; &#xB192;&#xC544;&#xC9C8; &#xC218;&#xB85D; &#xB354; &#xC5B4;&#xB835;&#xB2E4;.</p><br><p>&#xCF54;&#xB4DC;&#xB97C; &#xC798; &#xC9E0;&#xB2E4;&#xACE0; &#xD558;&#xB354;&#xB77C;&#xB3C4; &#xC218;&#xC2DD;&#xB3C4; &#xC5B4;&#xB835;&#xB2E4;. &#xC774;&#xB7F4; &#xB54C;&#xB294;.. &#xAE30;&#xCD08;&#xC801;&#xC778; &#xAC83;&#xC744; &#xC774;&#xD574;&#xD558;&#xACE0; &#xC798; &#xB9CC;&#xB4E4;&#xC5B4; &#xB17C; &#xAC83;&#xC744; &#xD65C;&#xC6A9;&#xD558;&#xBA74; &#xB41C;&#xB2E4;.</p><br><p>&#xBC14;&#xB85C; ros_control..</p><br><p><img class="alignnone wp-image-1259 size-large" src="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-15-18-21-10-1024x595.png" alt="" width="640" height="372" srcset="https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-15-18-21-10-1024x595.png 1024w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-15-18-21-10-300x174.png 300w, https://passionbull.net/wp-content/uploads/2018/11/&#xC2A4;&#xD06C;&#xB9B0;&#xC0F7;-2018-11-15-18-21-10-768x446.png 768w" sizes="(max-width: 640px) 100vw, 640px"></p><br><p>&#xC704;&#xC758; &#xC0AC;&#xC9C4;&#xC740; &#xACF5;&#xBD80;&#xB97C; &#xD558;&#xBA74;&#xC11C; &#xB9CC;&#xB4E0; &#xB85C;&#xBD07; &#xBA38;&#xB9AC;&#xC774;&#xB2E4;.</p><br><p>&#xC774;&#xBBF8;&#xC9C0;&#xC5D0;&#xC11C; &#xC88C;&#xD45C;&#xB97C; &#xC120;&#xD0DD;&#xD558;&#xBA74;, &#xB85C;&#xBD07;&#xC740; &#xADF8; &#xC88C;&#xD45C;&#xB97C; &#xC911;&#xC2EC;&#xC774; &#xB418;&#xB3C4;&#xB85D; &#xB85C;&#xBD07; &#xBA38;&#xB9AC;&#xB97C; &#xC6C0;&#xC9C1;&#xC778;&#xB2E4;.</p><br><p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/J3A2fBVVQjI?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></p><br><h2>&#xACF5;&#xBD80;&#xD55C; &#xAC83;</h2><br><h2><strong>1.&#xBAA8;&#xD130; &#xD3EC;&#xC9C0;&#xC158; &#xCEE8;&#xD2B8;&#xB864;</strong></h2><br><p>&#xBAA8;&#xD130;&#xB97C; &#xC6D0;&#xD558;&#xB294; &#xAC01;&#xB3C4; (&#xC704;&#xCE58;)&#xB85C; &#xC81C;&#xC5B4;&#xD558;&#xB294; &#xAC83;&#xC744; &#xC758;&#xBBF8;&#xD55C;&#xB2E4;.</p><br><p>&#xADF8;&#xB9AC;&#xACE0; &#xC2E4;&#xC81C; &#xC6C0;&#xC9C1;&#xC774;&#xB294; &#xB85C;&#xBD07;&#xACFC; &#xC2DC;&#xAC01;&#xD654; &#xD234;&#xC5D0;&#xC11C; &#xADF8;&#xB300;&#xB85C; &#xBCF4;&#xC77C;&#xC218; &#xC788;&#xB3C4;&#xB85D; &#xD55C;&#xB2E4;.</p><br><p>&#xC544;&#xB798; &#xB3D9;&#xC601;&#xC0C1;&#xC740; joint angle&#xC744; &#xC218;&#xB3D9;&#xC73C;&#xB85C; &#xC870;&#xC791;&#xD574;&#xBCF4;&#xB294; &#xC601;&#xC0C1;&#xC774;&#xB2E4;.</p><br><p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/pLG6DGtFoOg?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></p><br><hr><br><p>&#xB2E4;&#xC74C;&#xC73C;&#xB85C;&#xB294; position control&#xC744; &#xD574;&#xC57C;&#xD558;&#xB294;&#xB370;..</p><br><p>&#xC5EC;&#xB7EC; joint&#xC758; &#xAC01;&#xB3C4;&#xB97C; &#xC124;&#xC815;&#xD558;&#xC5EC;, &#xBAA8;&#xD130;&#xB97C; &#xC870;&#xC791;&#xD558;&#xB294;..</p><br><p>&#xC5C5;&#xB370;&#xC774;&#xD2B8; &#xC608;&#xC815;</p><br><hr><br><p> </p><br><h2><strong>2.&#xC2E4;&#xC81C; &#xBAA8;&#xD130;&#xCEE8;&#xD2B8;&#xB864;&#xB7EC; (micro controller)&#xB97C; ros_control &#xBAA8;&#xB4C8;&#xACFC; &#xC5F0;&#xB3D9;&#xC2DC;&#xCF1C;, &#xC0C1;&#xC704;&#xB808;&#xBCA8;&#xC5D0;&#xC11C; &#xC81C;&#xC5B4;&#xD558;&#xACE0;&#xC790; &#xD55C;&#xB2E4;. </strong></h2><br><p>Pal robotics</p><br><p>&#xC2A4;&#xD398;&#xC778; &#xD68C;&#xC0AC;&#xC774;&#xB2E4;.</p><br><p>&#xB0B4;&#xAC00; &#xD558;&#xACE0;&#xC790; &#xD558;&#xB294; &#xAC83;&#xC744; &#xC81C;&#xB300;&#xB85C; &#xAD6C;&#xD604;&#xC744; &#xD574;&#xB1A8;&#xB2E4;.</p><br><p>&#xCF54;&#xB4DC;&#xB97C; &#xBCF4;&#xBA74;&#xC11C; &#xB9CE;&#xC740; &#xACF5;&#xBD80;&#xAC00; &#xB410;&#xB2E4;.</p><br><p><span class="embed-youtube" style="text-align:center; display: block;"><iframe class="youtube-player" type="text/html" width="640" height="360" src="https://www.youtube.com/embed/EDfsAKCgs44?version=3&amp;rel=1&amp;fs=1&amp;autohide=2&amp;showsearch=0&amp;showinfo=1&amp;iv_load_policy=1&amp;wmode=transparent" allowfullscreen="true" style="border:0;"></iframe></span></p><br><p>&#xB3D9;&#xC601;&#xC0C1; &#xC704;&#xCE58; <a href="http://wiki.ros.org/Robots/TIAGo/Tutorials/motions/head_action" target="_blank" rel="noopener">http://wiki.ros.org/Robots/TIAGo/Tutorials/motions/head_action</a></p><br><ul><br><li>roslaunch tiago_gazebo tiago_gazebo.launch robot:=titanium public_sim:=true world:=look_to_point</li><br><li>rosrun look_to_point look_to_point</li><br></ul><br><p>&#xC774;&#xBBF8;&#xC9C0;&#xC5D0;&#xC11C; &#xC88C;&#xD45C; &#xCC0D;&#xC740; &#xACF3;&#xC744; &#xBC14;&#xB77C;&#xBCF8;&#xB2E4;.</p><br><p><img class="alignnone size-full wp-image-1249" src="https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134608506.png" alt="" width="984" height="566" srcset="![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134608506.png) 984w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134608506-300x173.png) 300w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134608506-768x442.png) 768w" sizes="(max-width: 984px) 100vw, 984px"></p><br><p><img class="alignnone wp-image-1250 size-medium" src="https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134629905-300x118.png" alt="" width="300" height="118" srcset="![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134629905-300x118.png) 300w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134629905-768x303.png) 768w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134629905-1024x404.png) 1024w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134629905.png) 1288w" sizes="(max-width: 300px) 100vw, 300px"><img class="alignnone wp-image-1254" src="https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_135400156-300x249.png" alt="" width="139" height="115" srcset="![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_135400156-300x249.png) 300w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_135400156.png) 564w" sizes="(max-width: 139px) 100vw, 139px"></p><br><p>&#xCE74;&#xBA54;&#xB77C; z&#xCD95;&#xC774; &#xCD08;&#xB85D;&#xC0C9; &#xC9C1;&#xC120; A&#xC640; &#xC77C;&#xCE58;&#xD558;&#xAC8C; &#xB9CC;&#xB4E0;&#xB2E4;.</p><br><p>Controller&#xC5D0;&#xC11C;&#xB294; &#xC88C;&#xD45C;&#xB97C; &#xBC1B;&#xACE0;,  &#xC9C1;&#xC120;&#xC744; &#xB9CC;&#xB4E0; &#xD6C4;, &#xC9C1;&#xC120;&#xACFC; &#xCE74;&#xBA54;&#xB77C; z&#xCD95;&#xC774; &#xC77C;&#xCE58;&#xD558;&#xAC8C; &#xD55C;&#xB2E4;.</p><br><p>Controller&#xB294; &#xCE74;&#xBA54;&#xB77C; z&#xCD95;&#xACFC; &#xC9C1;&#xC120; A&#xB97C; &#xC77C;&#xCE58;&#xC2DC;&#xD0A4;&#xAE30; &#xC704;&#xD574;, &#xC5ED;&#xAE30;&#xAD6C;&#xD559; &#xBB38;&#xC81C;&#xB97C; &#xD480;&#xACE0; pan &#xACFC; tilt&#xC758; &#xAC01;&#xB3C4;&#xB97C; &#xACC4;&#xC0B0;&#xD55C;&#xB2E4;.</p><br><p>&#xADF8;&#xB9AC;&#xACE0; joint trajectory&#xB97C; &#xC0DD;&#xC131;&#xD558;&#xC5EC; &#xBAA8;&#xD130;&#xB97C; &#xC81C;&#xC5B4;&#xD55C;&#xB2E4;.</p><br><p>&#xCD5C;&#xC885;&#xC801;&#xC73C;&#xB85C; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC740; &#xACB0;&#xACFC;&#xAC00; &#xB41C;&#xB2E4;.</p><br><p><img class="alignnone size-full wp-image-1251" src="https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134658145.png" alt="" width="968" height="544" srcset="![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134658145.png) 968w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134658145-300x169.png) 300w, ![](https://passionbull.net/wp-content/uploads/2018/11/KakaoTalk_20181115_134658145-768x432.png) 768w" sizes="(max-width: 968px) 100vw, 968px"></p><br><hr><br><p>Perception&#xC5D0;&#xC11C;&#xB294; &#xC88C;&#xD45C;&#xB97C; &#xB118;&#xAE30;&#xB294; &#xC5ED;&#xD560;&#xC744; &#xD55C;&#xB2E4;.</p><br><p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4; &#xC74C;&#xB8CC;&#xC218;&#xC5D0;&#xC11C; &#xAC10;&#xC790;&#xCE69;&#xC744; &#xBCFC; &#xC218; &#xC788;&#xB3C4;&#xB85D; x,y &#xC88C;&#xD45C;&#xB97C; &#xB118;&#xACA8;&#xC900;&#xB2E4;.</p><br><p>&#xCEE8;&#xD2B8;&#xB864;&#xB7EC;&#xC5D0;&#xC11C;&#xB294; &#xC88C;&#xD45C;&#xB97C; &#xCE74;&#xBA54;&#xB77C; &#xCD95;&#xC774; &#xBCF4;&#xAC8C;&#xB420; &#xBC29;&#xD5A5;&#xC73C;&#xB85C; &#xBCC0;&#xD658;, &#xADF8;&#xB9AC;&#xACE0; &#xC81C;&#xC5B4;&#xB97C; &#xD55C;&#xB2E4;.</p><br><hr><br><h2>&#xD558;&#xB4DC;&#xC6E8;&#xC5B4;</h2><br><p>&#xC2E4;&#xC81C; &#xBAA8;&#xD130; &#xCEE8;&#xD2B8;&#xB864;&#xB7EC;&#xB294; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC740; &#xCD9C;&#xB825;&#xACFC; &#xC785;&#xB825;&#xC774; &#xD544;&#xC694;&#xD558;&#xB2E4;.</p><br><p>&#xCD9C;&#xB825; : curr_vel, curr_effort, curr_pos</p><br><p>&#xD604;&#xC7AC; &#xC18D;&#xB3C4;, &#xD30C;&#xC6CC;, &#xC704;&#xCE58;&#xB97C; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD55C;&#xB2E4;.</p><br><p>&#xC785;&#xB825; : cmd_pos</p><br><p>&#xBAA9;&#xD45C;&#xD558;&#xB294; &#xC704;&#xCE58;(&#xAC01;&#xB3C4;)&#xB97C; &#xC785;&#xB825; &#xBC1B;&#xB294;&#xB2E4;.</p><br><hr><br><h2>ROS Control&#xC5D0; &#xC5F0;&#xACB0;</h2><br><p>&#xCD94;&#xD6C4; &#xC815;&#xB9AC; &#xC608;&#xC815;</p><br><hr><br><h2>&#xCC38;&#xACE0;&#xB9C1;&#xD06C;</h2><br><p><a href="https://pinkwink.kr/1007" target="_blank" rel="noopener">https://pinkwink.kr/1007</a></p><br><p><a href="https://pinkwink.kr/1013" target="_blank" rel="noopener">https://pinkwink.kr/1013</a></p><br><p>Ros control</p><br><ul><br><li><a href="https://github.com/ros-controls/ros_control/wiki/hardware_interface" target="_blank" rel="noopener">https://github.com/ros-controls/ros_control/wiki/hardware_interface</a></li><br><li><a href="http://gazebosim.org/tutorials/?tut=ros_control" target="_blank" rel="noopener">http://gazebosim.org/tutorials/?tut=ros_control</a></li><br><li><a href="https://github.com/PickNikRobotics/ros_control_boilerplate" target="_blank" rel="noopener">https://github.com/PickNikRobotics/ros_control_boilerplate</a></li><br></ul><br><p>Head action</p><br><ul><br><li><a href="http://docs.ros.org/electric/api/control_msgs/html/action/PointHeadAction.html" target="_blank" rel="noopener">http://docs.ros.org/electric/api/control_msgs/html/action/PointHeadAction.html</a></li><br><li><a href="http://wiki.ros.org/pr2_controllers/Tutorials/Moving%20the%20Head" target="_blank" rel="noopener">http://wiki.ros.org/pr2_controllers/Tutorials/Moving%20the%20Head</a></li><br><li><a href="http://wiki.ros.org/robotican/Tutorials/Moving%20the%20head" target="_blank" rel="noopener">http://wiki.ros.org/robotican/Tutorials/Moving%20the%20head</a></li><br><li><a href="http://wiki.ros.org/Robots/TIAGo/Tutorials/motions/head_action" target="_blank" rel="noopener">http://wiki.ros.org/Robots/TIAGo/Tutorials/motions/head_action</a></li><br><li><a href="http://wiki.ros.org/head_action" target="_blank" rel="noopener">http://wiki.ros.org/head_action</a></li><br></ul><br><p>&#xC2E4;&#xD5D8;&#xC744; &#xD558;&#xBA74;&#xC11C; &#xACC4;&#xC18D; &#xC5C5;&#xB370;&#xC774;&#xD2B8;&#xD560; &#xC608;&#xC815;&#xC774;&#xB2E4;.</p>
+
+
+<hr>
+<p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/1205-ros-pan-tilt-study" target="_blank" rel="noopener">&#x2018;Ros_control&#xC640; gazebo&#xB97C; &#xD65C;&#xC6A9;&#xD55C; pan/tilt control&#x2019;</a></p>
+<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
+        </div>
+        
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+    <div class="card">
+    <!-- 
+    <div class="card-image">
         <a href="/Connect-amazon-alexa-vocie-and-ROS-usin--alexa-skill-lambda-pubnub-2/" class="image is-7by1">
             <img class="thumbnail" src="https://passionbull.net/wp-content/uploads/2018/11/스크린샷-2018-11-02-18-06-23.png" alt="Connect amazon alexa vocie and ROS using alexa skill, lambda, pubnub #2">
         </a>
@@ -599,203 +714,6 @@
 <p>&#xAC10;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;! &#xAD81;&#xAE08;&#xD55C;&#xAC8C; &#xC788;&#xB2E4;&#xBA74; &#xB9C8;&#xC74C;&#xAECF; &#xBB3C;&#xC5B4;&#xBCF4;&#xC138;&#xC694;!</p>
 <hr>
 <p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/ros-gazebo-1" target="_blank" rel="noopener">&#x2018;ROS&#xC640; Gazebo&#xB97C; &#xC774;&#xC6A9;&#xD55C; &#xC2DC;&#xBBAC;&#xB808;&#xC774;&#xC158; #1&#x2019;</a></p>
-<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
-    <div class="card">
-    <!-- 
-    <div class="card-image">
-        <a href="/로봇-OS-미들웨어-ROS에-대해-알아보자/" class="image is-7by1">
-            <img class="thumbnail" src="http://slideplayer.com/6202942/18/images/17/Supported+robots+A+lot+more+on+http%3A%2F%2Fwww.ros.org%2Fwiki%2FRobots.jpg" alt="로봇 OS, 미들웨어, ROS에 대해 알아보자">
-        </a>
-    </div>
-     -->
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-11-25T21:50:54.000Z">2019-11-26</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/개발/">개발</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/">로봇</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/ROS/">ROS</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    6 minutes read (About 859 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/로봇-OS-미들웨어-ROS에-대해-알아보자/">로봇 OS, 미들웨어, ROS에 대해 알아보자</a>
-            
-        </h1>
-        <div class="content">
-            <p>ROS&#xC5D0; &#xB300;&#xD574; &#xC18C;&#xAC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;.</p>
-<p><a href="http://www.ros.org/" target="_blank" rel="noopener">ROS &#xACF5;&#xC2DD; &#xD648;&#xD398;&#xC774;&#xC9C0;</a></p>
-<p>ROS&#xB294; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<blockquote>The Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications. From drivers to state-of-the-art algorithms, and with powerful developer tools, ROS has what you need for your next robotics project. And it&#x2019;s all open source. - <a href="https://github.com/ros2/ros2/wiki" target="_blank" rel="noopener">https://github.com/ros2/ros2/wiki</a></blockquote>
-
-<hr>
-
-<p>ROS&#xB294; &#xB85C;&#xBD07; &#xBD84;&#xC57C;&#xC5D0;&#xC11C;&#xB294; &#xB9CE;&#xC774; &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xB294; OS, Tool&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p>&#xCC45;&#xC744; &#xBCF4;&#xBA74; &#xC790;&#xC138;&#xD788; &#xC54C; &#xC218; &#xC788;&#xC9C0;&#xB9CC;,</p>
-<p>&#xC2E4;&#xC81C;&#xB85C; ROS &#xC704;&#xC5D0;&#xC11C; &#xAC1C;&#xBC1C;&#xD558;&#xB294; &#xC0AC;&#xB78C;&#xC758; &#xC785;&#xC7A5;&#xC5D0;&#xC11C;</p>
-<p>ROS&#xB97C; &#xC124;&#xBA85;&#xD574;&#xBCF4;&#xACE0; &#xC2F6;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xBA3C;&#xC800; ROS&#xC5D0; &#xC7A5;&#xC810;&#xB4E4;&#xC5D0; &#xB300;&#xD574; &#xC801;&#xC5B4;&#xBD24;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p></p><ul><br>     <li>ROS&#xB294; &#xB85C;&#xBD07; &#xC5B4;&#xD50C;&#xB9AC;&#xCF00;&#xC774;&#xC158; &#xAC1C;&#xBC1C;&#xC744; &#xB3C4;&#xC640;&#xC8FC;&#xB294; &#xC18C;&#xD504;&#xD2B8;&#xC6E8;&#xC5B4; &#xB77C;&#xC774;&#xBE0C;&#xB7EC;&#xB9AC;, &#xD234;&#xC758; &#xC9D1;&#xD569;&#xCCB4;&#xC785;&#xB2C8;&#xB2E4;. Android&#xB85C; &#xC608;&#xB97C; &#xB4E4;&#xBA74;, Android SDK, Android Studio&#xB77C;&#xACE0; &#xBCFC; &#xC218; &#xC788;&#xACA0;&#xC8E0;.</li><br>     <li>ROS&#xB294; &#xC13C;&#xC11C; &#xB4DC;&#xB77C;&#xC774;&#xBC84;&#xC640; &#xAC19;&#xC774; Low-level&#xBD80;&#xD130; &#xCD5C;&#xC2E0; &#xAE30;&#xC220;&#xB4E4;&#xC758; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xAE4C;&#xC9C0; &#xBAA8;&#xB450; &#xC9C0;&#xC6D0;&#xC744; &#xD569;&#xB2C8;&#xB2E4;.</li><br>     <li>&#xADF8;&#xB9AC;&#xACE0; &#xC624;&#xD508;&#xC18C;&#xC2A4;&#xC785;&#xB2C8;&#xB2E4;. &#xBB34;&#xB8CC;&#xC785;&#xB2C8;&#xB2E4;.</li><br>     <li><strong>&#xC2DC;&#xBBAC;&#xB808;&#xC774;&#xC158;&#xC5D0;&#xC11C; &#xAC1C;&#xBC1C;&#xD55C; &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC744; &#xC2E4;&#xC81C; &#xB85C;&#xBD07;&#xC5D0; &#xC190;&#xC27D;&#xAC8C; &#xC801;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</strong></li><br>     <li><strong>&#xD558;&#xB4DC;&#xC6E8;&#xC5B4;&#xC5D0; &#xB300;&#xD55C; &#xC758;&#xC874;&#xC131;&#xC774; &#xC801;&#xC2B5;&#xB2C8;&#xB2E4;.</strong></li><br></ul><br>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;<p></p>
-<p>&#xC800;&#xB294; B&#xC0AC;&#xC5D0;&#xC11C; &#xB9CC;&#xB4E0; &#xB85C;&#xBD07;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xACE0; &#xC788;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC800;&#xB294; &#xC774; &#xB85C;&#xBD07;&#xC5D0; &#xB124;&#xBE44;&#xAC8C;&#xC774;&#xC158; S/W&#xB97C; &#xAC1C;&#xBC1C;&#xD588;&#xB294;&#xB370;&#xC694;.</p>
-<p>&#xD558;&#xC9C0;&#xB9CC; &#xAC00;&#xACA9; &#xBB38;&#xC81C;&#xB85C;, &#xC880; &#xB354; &#xC800;&#xB834;&#xD55C; &#xB85C;&#xBD07;&#xC744; &#xC0AC;&#xACE0;&#xC2F6;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xADF8;&#xB798;&#xC11C; C&#xC0AC; &#xB85C;&#xBD07;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xB824;&#xACE0; &#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xBCF4;&#xD1B5;&#xC758; &#xACBD;&#xC6B0;, C&#xC0AC; &#xB85C;&#xBD07;&#xC744; &#xC0AC;&#xC6A9;&#xD558;&#xAE30;&#xC704;&#xD574; &#xCD94;&#xAC00;&#xC801;&#xC778; &#xAC1C;&#xBC1C;&#xC774; &#xB9CE;&#xC774; &#xD544;&#xC694;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC989;, &#xD558;&#xB4DC;&#xC6E8;&#xC5B4; &#xC758;&#xC874;&#xC131;&#xC774; &#xC788;&#xB2E4;&#xB294;&#xAC70;&#xC8E0;.</p>
-<p>&#xD558;&#xB4DC;&#xC6E8;&#xC5B4; &#xC758;&#xC874;&#xC131;&#xC744; ROS&#xAC00; &#xD574;&#xACB0;&#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</p>
-<p><img src="http://slideplayer.com/6202942/18/images/17/Supported+robots+A+lot+more+on+http%3A%2F%2Fwww.ros.org%2Fwiki%2FRobots.jpg" alt="ros robots&#xC5D0; &#xB300;&#xD55C; &#xC774;&#xBBF8;&#xC9C0; &#xAC80;&#xC0C9;&#xACB0;&#xACFC;"></p>
-<hr>
-
-<p>ROS&#xB294; &#xC13C;&#xC11C;&#xAC00; &#xB0B4;&#xBD80;&#xC801;&#xC73C;&#xB85C; &#xC5B4;&#xB5BB;&#xAC8C; &#xB3D9;&#xC791;&#xD558;&#xB294;&#xC9C0;, CAN&#xD1B5;&#xC2E0;, UART&#xAC00; &#xBB54;&#xC9C0; &#xBAB0;&#xB77C;&#xB3C4;</p>
-<p>&#xADF8; &#xC13C;&#xC11C;&#xB97C; &#xD65C;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xAC8C; &#xD574;&#xC8FC;&#xBA70;, &#xC54C;&#xACE0;&#xB9AC;&#xC998;&#xC5D0; &#xC9D1;&#xC911;&#xD558;&#xAC8C; &#xD574;&#xC90D;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;</p>
-<p></p><ul><br>     <li>&#xC81C;&#xAC00; &#xC5B4;&#xB5A4; &#xCE74;&#xBA54;&#xB77C;&#xB97C; &#xC0AC;&#xC6A9;&#xD558;&#xB358;&#xC9C0; &#xAC04;&#xC5D0; RGB &#xC774;&#xBBF8;&#xC9C0;&#xB9CC; &#xAC00;&#xC838;&#xC62C; &#xC218; &#xC788;&#xC73C;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;.</li><br>     <li>&#xB85C;&#xBD07;&#xC758; Base&#xB294; &#xC81C;&#xAC00; &#xC5B4;&#xB5A4; &#xAC78; &#xC4F0;&#xB358;&#xC9C0; &#xAC04;&#xC5D0;, &#xB85C;&#xBD07;&#xC758; &#xC704;&#xCE58;&#xC640; &#xC6C0;&#xC9C1;&#xC774;&#xB77C;&#xACE0; &#xBA85;&#xB839;&#xD560; &#xB54C; &#xC6C0;&#xC9C1;&#xC774;&#xAE30;&#xB9CC; &#xD558;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;.</li><br></ul><br>ROS&#xB294; &#xB85C;&#xBD07; &#xACC4;&#xC758; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC;&#xC785;&#xB2C8;&#xB2E4;.<p></p>
-<p>&#xC6B0;&#xB9AC;&#xAC00; LG, Samsung, &#xC5B4;&#xB5A4; &#xD3F0;&#xC744; &#xC4F0;&#xB354;&#xB77C;&#xB3C4;, &#xC6B0;&#xB9AC;&#xB294; &#xBAA8;&#xB450; &#xB2E4; &#xCE74;&#xD1A1;&#xC744; &#xD560; &#xC218; &#xC788;&#xACE0;, &#xCE74;&#xBA54;&#xB77C; &#xC571;, &#xAC8C;&#xC784;&#xC744; &#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xAD73;&#xC774; &#xD2B9;&#xC815; &#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xC744; &#xC704;&#xD55C; &#xAC8C;&#xC784;&#xC774; &#xC544;&#xB2C8;&#xB77C; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC;&#xC6A9;&#xC73C;&#xB85C; &#xB9CC;&#xB4E4;&#xBA74; &#xBAA8;&#xB4E0; &#xC548;&#xB4DC;&#xB85C;&#xC774;&#xB4DC;&#xD3F0;&#xC5D0;&#xC11C; &#xD65C;&#xC6A9;&#xD560; &#xC218; &#xC788;&#xB294;&#xAC70;&#xC8E0;.</p>
-<p>&#xAC1C;&#xBC1C;&#xC790;&#xAC00; &#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xC758; &#xCE74;&#xBA54;&#xB77C;&#xB97C; &#xD65C;&#xC6A9;&#xD558;&#xB294; &#xAE30;&#xB2A5;&#xC744; &#xAC1C;&#xBC1C;&#xD55C;&#xB2E4;&#xACE0; &#xD574;&#xC11C;</p>
-<p>&#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xB9C8;&#xB2E4; &#xB2EC;&#xB824;&#xC788;&#xB294; &#xCE74;&#xBA54;&#xB77C;&#xC5D0; &#xB300;&#xD574; &#xACF5;&#xBD80;&#xD560; &#xD544;&#xC694;&#xAC00; &#xC5C6;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<hr>
-
-<p>&#xC608;&#xC804;&#xC5D0; &#xD53C;&#xCCD0;&#xD3F0;&#xC744; &#xC0AC;&#xC6A9;&#xD560; &#xB54C;&#xB294;, &#xADF8; &#xD3F0;&#xC744; &#xC704;&#xD55C; &#xAC8C;&#xC784;, &#xC5B4;&#xD50C;&#xB4E4;&#xC744; &#xAC1C;&#xBC1C;&#xD574;&#xC57C;&#xD588;&#xC5C8;&#xACE0;</p>
-<p>&#xAC1C;&#xC778;&#xC774; &#xAC1C;&#xBC1C;&#xD558;&#xAE30; &#xC5B4;&#xB824;&#xC6E0;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>Android, iOS&#xC640; &#xAC19;&#xC740; &#xBBF8;&#xB4E4;&#xC6E8;&#xC5B4; OS&#xAC00; &#xC0DD;&#xAE30;&#xBA74;&#xC11C; &#xD558;&#xB4DC;&#xC6E8;&#xC5B4; &#xC758;&#xC874;&#xC131;&#xC744; &#xC5C6;&#xC560;&#xC92C;&#xC8E0;!</p>
-<p>&#xB85C;&#xBD07;&#xB3C4; &#xBE44;&#xC2B7;&#xD55C; &#xBC29;&#xD5A5;&#xC73C;&#xB85C; &#xAC00;&#xACE0;&#xC788;&#xB2E4;&#xACE0; &#xC0DD;&#xAC01;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC77D;&#xC5B4;&#xC8FC;&#xC154;&#xC11C; &#xAC10;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<hr>
-<p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/os-ros" target="_blank" rel="noopener">&#x2018;&#xB85C;&#xBD07; OS, &#xBBF8;&#xB4E4;&#xC6E8;&#xC5B4;, ROS&#xC5D0; &#xB300;&#xD574; &#xC54C;&#xC544;&#xBCF4;&#xC790;&#x2019;</a></p>
-<script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
-        </div>
-        
-        
-        
-    </div>
-</div>
-
-
-
-
-
-
-
-
-    <div class="card">
-    <!-- 
-    <div class="card-image">
-        <a href="/쉽게-설명하는-자율-주행-기술-지도를-작성해보자/" class="image is-7by1">
-            <img class="thumbnail" src="https://i.ytimg.com/vi/P9jH3RhmKic/maxresdefault.jpg" alt="쉽게 설명하는 자율 주행 기술, 지도를 작성해보자!">
-        </a>
-    </div>
-     -->
-    <div class="card-content article ">
-        
-        <div class="level article-meta is-size-7 is-uppercase is-mobile is-overflow-x-auto">
-            <div class="level-left">
-                <time class="level-item has-text-grey" datetime="2019-11-25T21:50:24.000Z">2019-11-26</time>
-                
-                <div class="level-item">
-                <a class="has-link-grey -link" href="/categories/개발/">개발</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/">로봇</a>&nbsp;/&nbsp;<a class="has-link-grey -link" href="/categories/개발/로봇/자율주행/">자율주행</a>
-                </div>
-                
-                
-                <span class="level-item has-text-grey">
-                    
-                    
-                    9 minutes read (About 1296 words)
-                </span>
-                
-                
-            </div>
-        </div>
-        
-        <h1 class="title is-size-3 is-size-4-mobile has-text-weight-normal">
-            
-                <a class="has-link-black-ter" href="/쉽게-설명하는-자율-주행-기술-지도를-작성해보자/">쉽게 설명하는 자율 주행 기술, 지도를 작성해보자!</a>
-            
-        </h1>
-        <div class="content">
-            <p>&#xC548;&#xB155;&#xD558;&#xC138;&#xC694;.</p>
-<p>&#xC9C0;&#xB09C; &#xBC88;&#xC5D0; &#xC791;&#xC131;&#xD55C; <a href="https://busy.org/kr-dev/@jacobyu/7edaxv" target="_blank" rel="noopener">&#xB85C;&#xBD07;&#xC740; &#xC5B4;&#xB5BB;&#xAC8C; &#xC790;&#xAE30;&#xC758; &#xC704;&#xCE58;&#xB97C; &#xC544;&#xB294;&#xAC00;?</a> &#xD3EC;&#xC2A4;&#xD305;&#xC5D0;<br>&#xB9CE;&#xC740; &#xC0AC;&#xB78C;&#xB4E4;&#xC774; &#xAD00;&#xC2EC;&#xC744; &#xAC00;&#xC838;&#xC8FC;&#xC168;&#xC2B5;&#xB2C8;&#xB2E4;. &#xAC10;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC9C0;&#xB09C; &#xD3EC;&#xC2A4;&#xD305;&#xC5D0;&#xC11C;&#xB294; &#xAC04;&#xB2E8;&#xD788; &#xC790;&#xC728;&#xC8FC;&#xD589;&#xC774; &#xBB34;&#xC5C7;&#xC778;&#xC9C0;&#xC640; &#xC9C0;&#xB3C4;&#xAC00; &#xC788;&#xC744; &#xB54C; &#xB85C;&#xBD07;&#xC774; &#xC704;&#xCE58; &#xCD94;&#xC815;&#xC744; &#xC5B4;&#xB5BB;&#xAC8C; &#xD560;&#xAE4C;&#xB97C; &#xC608;&#xB97C; &#xB4E4;&#xC5B4;&#xC11C; &#xC124;&#xBA85;&#xC744; &#xD588;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC774;&#xBC88; &#xD3EC;&#xC2A4;&#xD305;&#xC5D0;&#xC11C;&#xB294; &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xD558;&#xB294; &#xAC83;, &#xC989; Mapping&#xC5D0; &#xB300;&#xD574; &#xC18C;&#xAC1C;&#xD558;&#xACE0;&#xC790; &#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC790;&#xC728; &#xC8FC;&#xD589;&#xC5D0;&#xC11C;&#xC758; Mapping&#xC740; &#xBB34;&#xC5C7;&#xC77C;&#xAE4C;&#xC694;?</p>
-<hr>
-
-<p>&#xC790;&#xC728;&#xC8FC;&#xD589;&#xC5D0;&#xC11C;&#xC758; Mapping&#xC740; &#xD2B9;&#xC815; &#xC7A5;&#xC18C;, &#xACF5;&#xAC04;&#xC758; &#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4DC;&#xB294; &#xAC83;&#xC774;&#xBA70;,</p>
-<p>&#xB85C;&#xBD07;&#xC774; &#xC815;&#xD655;&#xD55C; &#xC704;&#xCE58; &#xCD94;&#xC815;&#xC744; &#xD558;&#xAE30; &#xC704;&#xD574;&#xC11C;&#xB294; <strong>&#xC815;&#xD655;&#xD55C; &#xC9C0;&#xB3C4;</strong>&#xAC00; &#xD544;&#xC694;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xBBF8;&#xC9C0;&#xC758; &#xD658;&#xACBD;, &#xC9C0;&#xB3C4;&#xAC00; &#xC5C6;&#xC5C8;&#xB358; &#xC7A5;&#xC18C;&#xC758; &#xC9C0;&#xB3C4;&#xB97C; &#xC5B4;&#xB5BB;&#xAC8C; &#xC815;&#xD655;&#xD55C; &#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4E4; &#xC218; &#xC788;&#xC744;&#xAE4C;&#xC694;?</p>
-<p>&#xC5EC;&#xAE30;&#xC11C; <strong>SLAM (Simultaneous localization and mapping)</strong>&#xC774;&#xB77C;&#xB294; &#xAE30;&#xC220;&#xC774; &#xB4F1;&#xC7A5;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>SLAM&#xC774; &#xB098;&#xC628;&#xC9C0;&#xB294; &#xC74C;&#x2026; &#xAF64; &#xC624;&#xB798;&#xB410;&#xC744;&#xAEBC;&#xC5D0;&#xC694;.. 1999&#xB144;?<br>SLAM&#xC740; &#xADF8;&#xB3D9;&#xC548; &#xB9CE;&#xC740; &#xBC1C;&#xC804;&#xC774; &#xC788;&#xC5C8;&#xACE0;, SLAM&#xC758; &#xC885;&#xB958;&#xB3C4; &#xC544;&#xC8FC; &#xB2E4;&#xC591;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xADF8; &#xC911; EKF-SLAM, EKF-filter&#xB294; NASA&#xAC00; &#xC6B0;&#xC8FC;&#xC5D0; &#xB85C;&#xCF13;&#xC744; &#xC3D8;&#xACE0;, &#xB2EC;&#xD0D0;&#xC0AC;&#xD558;&#xB294; &#xB85C;&#xBD07;&#xC744; &#xAC1C;&#xBC1C;&#xD588;&#xC744; &#xB54C;&#xC5D0;&#xB3C4; &#xC801;&#xC6A9;&#xD588;&#xB2E4;&#xB294; &#xC774;&#xC57C;&#xAE30;&#xB97C; &#xC218;&#xC5C5;&#xC5D0;&#xC11C; &#xB4E4;&#xC740; &#xAC83; &#xAC19;&#xC544;&#xC694;.. &#x314B;&#x314B;</p>
-<p>&#xC544;&#xB798;&#xB294; &#xCD5C;&#xC2E0; &#xAE30;&#xC220;&#xC774;&#xC5D0;&#xC694;!</p>
-<p><img src="https://i.ytimg.com/vi/P9jH3RhmKic/maxresdefault.jpg" alt="SLAM RTAB-MAP&#xC5D0; &#xB300;&#xD55C; &#xC774;&#xBBF8;&#xC9C0; &#xAC80;&#xC0C9;&#xACB0;&#xACFC;"></p>
-<p>&lt;RTAB-MAP - Google &#xAC80;&#xC0C9;&gt;, &#xC704;&#xC758; &#xC774;&#xBBF8;&#xC9C0;&#xB294; <strong>RGB-D &#xCE74;&#xBA54;&#xB77C;</strong>&#xAC00; &#xBD80;&#xCC29;&#xB41C; &#xC2A4;&#xB9C8;&#xD2B8;&#xD3F0;&#xC73C;&#xB85C; 3&#xCC28;&#xC6D0; &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xC911;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p>SLAM &#xC774;&#xB780;</p>
-<p></p><blockquote><b>&#xB3D9;&#xC2DC;&#xC801; &#xC704;&#xCE58;&#xCD94;&#xC815; &#xBC0F; &#xC9C0;&#xB3C4;&#xC791;&#xC131;</b>&#xC740; <a title="&#xB85C;&#xBD07;&#xACF5;&#xD559;" href="https://ko.wikipedia.org/wiki/%EB%A1%9C%EB%B4%87%EA%B3%B5%ED%95%99" target="_blank" rel="noopener">&#xB85C;&#xBD07;&#xACF5;&#xD559;</a> &#xB4F1;&#xC5D0;&#xC11C; &#xC0AC;&#xC6A9;&#xD558;&#xB294; &#xAC1C;&#xB150;&#xC73C;&#xB85C;, &#xC784;&#xC758; &#xACF5;&#xAC04;&#xC5D0;&#xC11C; &#xC774;&#xB3D9;&#xD558;&#xBA74;&#xC11C; &#xC8FC;&#xBCC0;&#xC744; &#xD0D0;&#xC0C9;&#xD560; &#xC218; &#xC788;&#xB294; &#xB85C;&#xBD07;&#xC5D0; &#xB300;&#xD574;, &#xADF8; &#xACF5;&#xAC04;&#xC758; &#xC9C0;&#xB3C4; &#xBC0F; &#xD604;&#xC7AC; &#xC704;&#xCE58;&#xB97C; &#xCD94;&#xC815;&#xD558;&#xB294; &#xBB38;&#xC81C;&#xC774;&#xB2E4;. - &#xC704;&#xD0A4;&#xBC31;&#xACFC;</blockquote><br>&#xC5EC;&#xAE30;&#xC11C; &#xC911;&#xC694;&#xD55C; &#xAC83;&#xC740;<p></p>
-<p>&#xC784;&#xC758;&#xC758; &#xACF5;&#xAC04;&#xC5D0;&#xC11C; &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC740; &#xC704;&#xCE58; &#xCD94;&#xC815;&#xACFC; &#xC9C0;&#xB3C4; &#xC791;&#xC131;&#xC744; <strong>&#xB3D9;&#xC2DC;&#xC5D0;</strong> &#xD55C;&#xB2E4;&#xB294; &#xAC83;&#xC778;&#xB370;&#xC694;.</p>
-<p>&#xC65C; &#xB3D9;&#xC2DC;&#xC5D0; &#xD574;&#xC57C;&#xD560;&#xAE4C;&#xC694;?</p>
-<p>&#xD558;&#xB098;&#xD558;&#xB098; &#xC54C;&#xC544;&#xAC00;&#xBD05;&#xC2DC;&#xB2E4;.</p>
-<hr>
-
-<p>&#xBA3C;&#xC800; &#xC544;&#xB798;&#xC640; &#xAC19;&#xC740; &#xAC00;&#xC815;&#xC744; &#xD574;&#xBCF4;&#xB824;&#xACE0; &#xD569;&#xB2C8;&#xB2E4;.</p>
-<p></p><ul><br>     <li><img src="https://trac.vicos.si/ros/raw-attachment/wiki/Teaching/Exercises/Navigation/rviz_navigation.png" alt="&#xAD00;&#xB828; &#xC774;&#xBBF8;&#xC9C0;"></li><br></ul><br>&lt;ROS lidar - Google &#xAC80;&#xC0C9;&gt;<p></p>
-<p></p><ul><br>     <li><strong>&#xB85C;&#xBD07;&#xC740; &#xC6D0;&#xC810;&#xC73C;&#xB85C;&#xBD80;&#xD130; &#xC790;&#xC2E0;&#xC774; &#xC774;&#xB3D9;&#xD55C; &#xAC70;&#xB9AC;, &#xC790;&#xC2E0;&#xC758; &#xC704;&#xCE58;&#xB97C; &#xC815;&#xD655;&#xD788; &#xC54C;&#xACE0; &#xC788;&#xB2E4;. (&#xC6D0;&#xC810;&#xC740; &#xB85C;&#xBD07;&#xC774; &#xB3D9;&#xC791; &#xC2DC;&#xC791;&#xD55C; &#xC704;&#xCE58;&#xC774;&#xB2E4;.) </strong></li><br>     <li>&#xB85C;&#xBD07;&#xC740; &#xC790;&#xC2E0;&#xC758; 360&#xB3C4;&#xB85C; 2&#xCC28;&#xC6D0; &#xAC70;&#xB9AC;&#xB97C; &#xCE21;&#xC815;&#xD55C;&#xB2E4;.</li><br>     <li>&#xB85C;&#xBD07;&#xC774; &#xC791;&#xC131;&#xD560; &#xC9C0;&#xB3C4;&#xB294; &#xB3D9;&#xC801; &#xC7A5;&#xC560;&#xBB3C;&#xC774; &#xC5C6;&#xB2E4;. (ex - &#xC0AC;&#xB78C;&#xB4E4;&#xC774; &#xB3CC;&#xC544;&#xB2E4;&#xB2C8;&#xC9C0; &#xC54A;&#xB294;&#xB2E4;.)</li><br></ul><br>&#xC704;&#xC640; &#xAC19;&#xC740; &#xAC00;&#xC815;&#xC774; &#xC788;&#xB2E4;&#xBA74;,<p></p>
-<p><strong>&#xB85C;&#xBD07;&#xC740; &#xC0AC;&#xC2E4; &#xC790;&#xC2E0;&#xC774; &#xC774;&#xB3D9;&#xD558;&#xB2E4;&#xAC00; &#xBCF8; 2&#xCC28;&#xC6D0; &#xAC70;&#xB9AC;&#xAC12;&#xC744; &#xC800;&#xC7A5;&#xD558;&#xACE0; &#xADF8;&#xB9AC;&#xAE30;&#xB9CC; &#xD558;&#xBA74; &#xADF8;&#xB300;&#xB85C; &#xC9C0;&#xB3C4;&#xAC00; &#xB9CC;&#xB4E4;&#xC5B4;&#xC9C0;&#xB294; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;!!!</strong></p>
-<p>&#xA0;</p>
-<p>&#xD558;&#xC9C0;&#xB9CC; &#xD604;&#xC2E4;&#xC5D0;&#xC11C;&#xB294; &#xB85C;&#xBD07;&#xC740; &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xD560; &#xB54C;, &#xC790;&#xC2E0;&#xC758; &#xC815;&#xD655;&#xD55C; &#xC704;&#xCE58;&#xB97C; &#xBAA8;&#xB985;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC65C;&#xB0D0;&#xD558;&#xBA74;, &#xC13C;&#xC11C;&#xB4E4;&#xC758; &#xC624;&#xCC28;, &#xBC14;&#xD034;&#xC758; &#xBBF8;&#xB044;&#xB7EC;&#xC9D0;, &#xB9C8;&#xCC30; &#xB4F1; &#xC678;&#xBD80; &#xBCC0;&#xC218; &#xB4F1;&#xC758; &#xC624;&#xCC28;&#xAC00; &#xC788;&#xAE30; &#xB54C;&#xBB38;&#xC785;&#xB2C8;&#xB2E4;. &#xB610;&#xD55C; &#xB85C;&#xBD07;&#xC774; &#xC774;&#xB3D9;&#xD560;&#xC218;&#xB85D; &#xB85C;&#xBD07;&#xC758; &#xC704;&#xCE58; &#xC624;&#xCC28;&#xB294; &#xC810;&#xC810; &#xB204;&#xC801;&#xC774; &#xB418;&#xC8E0;.</p>
-<p>&#xADF8;&#xB798;&#xC11C; &#xB85C;&#xBD07;&#xC740; &#xC790;&#xC2E0;&#xC758; &#xC704;&#xCE58;&#xB97C; &#xCD94;&#xC815;&#xD558;&#xBA74;&#xC11C; &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xC744; &#xD574;&#xC57C;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<hr>
-
-<p>&#xC88B;&#xC740; &#xC608;&#xB97C; &#xCC3E;&#xC558;&#xB294;&#xB370;&#xC694;.</p>
-<p>&#xC544;&#xB798; &#xADF8;&#xB9BC;&#xC744; &#xBCF4;&#xBA74; &#xCCAB;&#xBC88;&#xC9F8; &#xC9C0;&#xB3C4;&#xB294; &#xBCBD; &#xBD80;&#xBD84;&#xC774; &#xC798; &#xC548;&#xB9DE;&#xB294;&#xAC83;&#xC744; &#xBCFC; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p>
-<p>&#xB450;&#xBC88;&#xC9F8; &#xC9C0;&#xB3C4;&#xB294; &#xC880; &#xAD1C;&#xCC2E;&#xC544;&#xBCF4;&#xC774;&#xC8E0;?</p>
-<p>&#xB450; &#xC9C0;&#xB3C4;&#xC758; &#xCC28;&#xC774;&#xB294; &#xC704;&#xCE58;&#xCD94;&#xC815;, &#xC704;&#xCE58; &#xBCF4;&#xC815;&#xC744; &#xD558;&#xBA74;&#xC11C; &#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4E4;&#xC5C8;&#xB294;&#xC9C0;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p>&#xCCAB;&#xBC88;&#xC9F8;&#xB294; &#xB85C;&#xBD07; &#xBC14;&#xD034;&#xAC00; &#xAD74;&#xB7EC;&#xAC00;&#xB294; &#xAC83;&#xB9CC;&#xC744; &#xACC4;&#xC0B0;&#xB41C; &#xC704;&#xCE58;&#xB97C; &#xAE30;&#xBC18;&#xC73C;&#xB85C; &#xC9C0;&#xB3C4;&#xB97C; &#xADF8;&#xB9B0;&#xAC83; &#xC785;&#xB2C8;&#xB2E4;. &#xC774;&#xB7F4; &#xACBD;&#xC6B0;, &#xB85C;&#xBD07;&#xC758; &#xC704;&#xCE58; &#xC624;&#xCC28;&#xB294; &#xACC4;&#xC18D; &#xB204;&#xC801;&#xC774; &#xB418;&#xACE0; &#xADF8;&#xC5D0; &#xB530;&#xB77C; &#xC9C0;&#xB3C4;&#xB3C4; &#xD2C0;&#xC5B4;&#xC9C0;&#xAC8C; &#xB418;&#xB294; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p>&#xB450;&#xBC88;&#xC9F8;&#xC758; &#xACBD;&#xC6B0;&#xB294; &#xC2DC;&#xAC04; t&#xAE4C;&#xC9C0;&#xC5D0; &#xB0B4;&#xAC00; &#xBCF4;&#xACE0; &#xC788;&#xB294; &#xAC83;&#xACFC; &#xC2DC;&#xAC04; t&#xAE4C;&#xC9C0; &#xB9CC;&#xB4E4;&#xC5B4;&#xB193;&#xC740; &#xC9C0;&#xB3C4;&#xB97C; &#xBCF4;&#xBA74;&#xC11C; &#xC8FC;&#xAE30;&#xC801;&#xC73C;&#xB85C; &#xB85C;&#xBD07;&#xC758; &#xC704;&#xCE58;&#xAC00; &#xD2C0;&#xC5B4;&#xC9C0;&#xB294; &#xAC83;&#xC744; &#xBC29;&#xC9C0;&#xD558;&#xACE0;, &#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4E0; &#xAC83;&#xC785;&#xB2C8;&#xB2E4;.</p>
-<p><img src="https://raw.githubusercontent.com/wiki/introlab/rtabmap/doc/IROS-Kinect-Challenge/top_cloud_raw.png" alt="top_cloud_raw"></p>
-<p>&lt;<a href="https://github.com/introlab/rtabmap/wiki/IROS-2014-Kinect-Challenge&amp;gt" target="_blank" rel="noopener">https://github.com/introlab/rtabmap/wiki/IROS-2014-Kinect-Challenge&amp;gt</a>;</p>
-<p><img src="https://raw.githubusercontent.com/wiki/introlab/rtabmap/doc/IROS-Kinect-Challenge/top_cloud.png" alt="top_cloud"></p>
-<p>&lt;<a href="https://github.com/introlab/rtabmap/wiki/IROS-2014-Kinect-Challenge&amp;gt" target="_blank" rel="noopener">https://github.com/introlab/rtabmap/wiki/IROS-2014-Kinect-Challenge&amp;gt</a>;</p>
-<p>&#xA0;</p>
-<hr>
-
-<p>&#xC624;&#xB298;&#xC740; Mapping, SLAM&#xC5D0; &#xB300;&#xD574; &#xAC04;&#xB2E8;&#xD788; &#xC18C;&#xAC1C;&#xB97C; &#xD574;&#xB4DC;&#xB838;&#xB294;&#xB370;&#xC694;.</p>
-<p>&#xC989;, &#xB85C;&#xBD07;&#xC758; &#xC704;&#xCE58;&#xAC00; &#xBD88;&#xD655;&#xC2E4;&#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0;,<br>&#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4DC;&#xB294; &#xAC83;&#xACFC; &#xC704;&#xCE58;&#xB97C; &#xCD94;&#xC815;&#xD558;&#xB294; &#xAC83;&#xC744; &#xB3D9;&#xC2DC;&#xC5D0; &#xD574;&#xC57C;&#xD55C;&#xB2E4;&#xB294;&#xAC8C; &#xC624;&#xB298; &#xD558;&#xACE0;&#xC2F6;&#xC740; &#xB9D0;&#xC774;&#xC600;&#xC2B5;&#xB2C8;&#xB2E4;.<br>&#xADF8;&#xB9AC;&#xACE0; &#xB3D9;&#xC2DC;&#xC5D0; &#xD558;&#xAE30; &#xB54C;&#xBB38;&#xC5D0; &#xC5B4;&#xB824;&#xC6B4; &#xBB38;&#xC81C;&#xAC00; &#xB418;&#xB294;&#xAC70;&#xACE0;&#xC694;.</p>
-<p>&#xC0AC;&#xB78C;&#xB3C4; &#xBB34;&#xC758;&#xC2DD;&#xC801;&#xC73C;&#xB85C; &#xC774;&#xB807;&#xAC8C; &#xC9C0;&#xB3C4;&#xB97C; &#xB9CC;&#xB4E4;&#xAC70;&#xC5D0;&#xC694;.</p>
-<p>&#xC790;&#xC138;&#xD55C; &#xC0AC;&#xD56D;&#xC740; &#xCC3E;&#xC544;&#xC11C; &#xACF5;&#xBD80;&#xD558;&#xC2DC;&#xBA74; &#xB429;&#xB2C8;&#xB2E4;!</p>
-<hr>
-
-<p>&#xB2E4;&#xC74C;&#xC5D0;&#xB294; &#xC9C0;&#xB3C4;&#xB3C4; &#xC788;&#xACE0;, &#xB0B4;&#xAC00; &#xC9C0;&#xB3C4; &#xC704;&#xC5D0; &#xC5B4;&#xB514;&#xC788;&#xB294;&#xC9C0;&#xB3C4; &#xC548;&#xB2E4;&#xBA74;</p>
-<p>&#xBAA9;&#xC801;&#xC9C0;&#xAE4C;&#xC9C0; &#xC774;&#xB3D9;&#xD558;&#xB294; &#xAC83;, Path planning&#xC5D0; &#xB300;&#xD574; &#xC791;&#xC131;&#xD574;&#xBCFC;&#xAE4C; &#xD569;&#xB2C8;&#xB2E4;.</p>
-<p>&#xC77D;&#xC5B4;&#xC8FC;&#xC154;&#xC11C; &#xAC10;&#xC0AC;&#xD569;&#xB2C8;&#xB2E4;.</p>
-<hr>
-<p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/54qama" target="_blank" rel="noopener">&#x2018;&#xC27D;&#xAC8C; &#xC124;&#xBA85;&#xD558;&#xB294; &#xC790;&#xC728; &#xC8FC;&#xD589; &#xAE30;&#xC220;, &#xC9C0;&#xB3C4;&#xB97C; &#xC791;&#xC131;&#xD574;&#xBCF4;&#xC790;!&#x2019;</a></p>
 <script>document.querySelectorAll(".not-gallery-item").forEach(e=>{if(!e.dataset.src)return;const t=document.createElement("img");t.style="display:none !important;",t.src=e.dataset.src,t.addEventListener("error",()=>{t.remove(),e.style.color="inherit",e.style.backgroundImage="none",e.style.background="none"}),t.addEventListener("load",()=>{t.remove()}),document.body.appendChild(t)});</script>
         </div>
         
