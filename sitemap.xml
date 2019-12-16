@@ -3,18 +3,18 @@
 
 
     <sitemap>
-        <loc>http://passionbull.github.io/post-sitemap.xml</loc>
-        <lastmod>2019-12-14T07:22:31.228Z</lastmod>
+        <loc>https://jacobyu.net/post-sitemap.xml</loc>
+        <lastmod>2019-12-16T04:08:19.101Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://passionbull.github.io/category-sitemap.xml</loc>
-        <lastmod>2019-12-14T07:22:31.228Z</lastmod>
+        <loc>https://jacobyu.net/category-sitemap.xml</loc>
+        <lastmod>2019-12-16T04:08:18.775Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://passionbull.github.io/tag-sitemap.xml</loc>
-        <lastmod>2019-12-14T07:22:31.228Z</lastmod>
+        <loc>https://jacobyu.net/tag-sitemap.xml</loc>
+        <lastmod>2019-12-16T04:08:19.101Z</lastmod>
     </sitemap>
 
 </sitemapindex>
