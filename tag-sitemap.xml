@@ -3,1212 +3,1219 @@
 
 
     <url>
-        <loc>https://jacobyu.net/tags/bs/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/spt/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
+        <loc>https://jacobyu.net/tags/sct-dev/</loc>
+        <lastmod>2020-01-05T09:31:58.811Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-kr/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/sct-freeboard/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/zzan/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
+        <lastmod>2020-01-05T09:31:58.811Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
+        <lastmod>2020-01-05T09:31:58.811Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/busy/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
+        <lastmod>2020-01-05T09:31:58.811Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://jacobyu.net/tags/kr/</loc>
-        <lastmod>2020-01-02T15:18:33.761Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/union/</loc>
-        <lastmod>2020-01-02T15:18:33.309Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/s/</loc>
-        <lastmod>2020-01-02T15:18:32.894Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/sct-invest/</loc>
-        <lastmod>2020-01-02T15:18:32.894Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/book/</loc>
-        <lastmod>2020-01-02T15:18:32.894Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://jacobyu.net/tags/sct-dev/</loc>
-        <lastmod>2020-01-02T15:18:32.874Z</lastmod>
+        <loc>https://jacobyu.net/tags/bs/</loc>
+        <lastmod>2020-01-05T09:31:58.798Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-dev/</loc>
-        <lastmod>2020-01-02T15:18:32.874Z</lastmod>
+        <lastmod>2020-01-05T09:31:58.798Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/kr/</loc>
+        <lastmod>2020-01-05T09:31:58.798Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/sct-book/</loc>
+        <lastmod>2020-01-05T09:31:58.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/sct-freeboard/</loc>
+        <lastmod>2020-01-05T09:31:58.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/zzan/</loc>
+        <lastmod>2020-01-05T09:31:58.449Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/spt/</loc>
+        <lastmod>2020-01-05T09:31:58.437Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/union/</loc>
+        <lastmod>2020-01-05T09:31:58.100Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/s/</loc>
+        <lastmod>2020-01-05T09:31:57.728Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/sct-invest/</loc>
+        <lastmod>2020-01-05T09:31:57.728Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://jacobyu.net/tags/book/</loc>
+        <lastmod>2020-01-05T09:31:57.728Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-altcoin/</loc>
-        <lastmod>2020-01-02T15:18:31.084Z</lastmod>
+        <lastmod>2020-01-05T09:31:57.304Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/booksteem/</loc>
-        <lastmod>2020-01-02T15:18:30.619Z</lastmod>
+        <lastmod>2020-01-05T09:31:57.287Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/engrave/</loc>
-        <lastmod>2020-01-02T15:18:30.619Z</lastmod>
+        <lastmod>2020-01-05T09:31:57.287Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-book/</loc>
-        <lastmod>2020-01-02T15:18:29.719Z</lastmod>
+        <lastmod>2020-01-05T09:31:56.337Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sago/</loc>
-        <lastmod>2020-01-02T15:18:29.274Z</lastmod>
+        <lastmod>2020-01-05T09:31:55.941Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-diary/</loc>
-        <lastmod>2020-01-02T15:18:28.757Z</lastmod>
+        <lastmod>2020-01-05T09:31:55.496Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/hint/</loc>
-        <lastmod>2020-01-02T15:18:27.803Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.779Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/palnet/</loc>
-        <lastmod>2020-01-02T15:18:27.770Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-en/</loc>
-        <lastmod>2020-01-02T15:18:27.770Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-notice/</loc>
-        <lastmod>2020-01-02T15:18:27.770Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/dev/</loc>
-        <lastmod>2020-01-02T15:18:27.770Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.746Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-consumer/</loc>
-        <lastmod>2020-01-02T15:18:27.402Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.207Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/easy-signup/</loc>
-        <lastmod>2020-01-02T15:18:27.351Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.162Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-diary/</loc>
-        <lastmod>2020-01-02T15:18:27.338Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.149Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-market/</loc>
-        <lastmod>2020-01-02T15:18:27.259Z</lastmod>
+        <lastmod>2020-01-05T09:31:54.080Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/bookitsuda/</loc>
-        <lastmod>2020-01-02T15:18:26.686Z</lastmod>
+        <lastmod>2020-01-05T09:31:53.379Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steemfest/</loc>
-        <lastmod>2020-01-02T15:18:26.649Z</lastmod>
+        <lastmod>2020-01-05T09:31:53.344Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-qna/</loc>
-        <lastmod>2020-01-02T15:18:22.396Z</lastmod>
+        <lastmod>2020-01-05T09:31:50.906Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/poll/</loc>
-        <lastmod>2020-01-02T15:18:21.150Z</lastmod>
+        <lastmod>2020-01-05T09:31:49.519Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/dpoll/</loc>
-        <lastmod>2020-01-02T15:18:21.150Z</lastmod>
+        <lastmod>2020-01-05T09:31:49.519Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/game/</loc>
-        <lastmod>2020-01-02T15:18:21.150Z</lastmod>
+        <lastmod>2020-01-05T09:31:49.519Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jjm/</loc>
-        <lastmod>2020-01-02T15:18:20.749Z</lastmod>
+        <lastmod>2020-01-05T09:31:49.161Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/palja/</loc>
-        <lastmod>2020-01-02T15:18:20.352Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.804Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/buay/</loc>
-        <lastmod>2020-01-02T15:18:19.918Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.431Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/best-drama/</loc>
-        <lastmod>2020-01-02T15:18:19.911Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.427Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/aaa/</loc>
-        <lastmod>2020-01-02T15:18:19.911Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.427Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/blocktradescontest/</loc>
-        <lastmod>2020-01-02T15:18:19.889Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/roadtosteemfest/</loc>
-        <lastmod>2020-01-02T15:18:19.889Z</lastmod>
+        <lastmod>2020-01-05T09:31:48.410Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-freeboaed/</loc>
-        <lastmod>2020-01-02T15:18:18.251Z</lastmod>
+        <lastmod>2020-01-05T09:31:46.886Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-movie/</loc>
-        <lastmod>2020-01-02T15:18:16.812Z</lastmod>
+        <lastmod>2020-01-05T09:31:45.756Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-game/</loc>
-        <lastmod>2020-01-02T15:18:15.984Z</lastmod>
+        <lastmod>2020-01-05T09:31:45.028Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-otc/</loc>
-        <lastmod>2020-01-02T15:18:12.635Z</lastmod>
+        <lastmod>2020-01-05T09:31:41.966Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-travel/</loc>
-        <lastmod>2020-01-02T15:18:12.220Z</lastmod>
+        <lastmod>2020-01-05T09:31:41.629Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/scr-kr/</loc>
-        <lastmod>2020-01-02T15:18:12.192Z</lastmod>
+        <lastmod>2020-01-05T09:31:41.607Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/mydream/</loc>
-        <lastmod>2020-01-02T15:18:11.454Z</lastmod>
+        <lastmod>2020-01-05T09:31:40.946Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/food/</loc>
-        <lastmod>2020-01-02T15:18:11.399Z</lastmod>
+        <lastmod>2020-01-05T09:31:40.902Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/travel/</loc>
-        <lastmod>2020-01-02T15:18:11.392Z</lastmod>
+        <lastmod>2020-01-05T09:31:40.896Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/krwp/</loc>
-        <lastmod>2020-01-02T15:18:09.733Z</lastmod>
+        <lastmod>2020-01-05T09:31:39.182Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steem/</loc>
-        <lastmod>2020-01-02T15:18:08.401Z</lastmod>
+        <lastmod>2020-01-05T09:31:38.064Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-userguide/</loc>
-        <lastmod>2020-01-02T15:18:06.153Z</lastmod>
+        <lastmod>2020-01-05T09:31:35.739Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/coinstory/</loc>
-        <lastmod>2020-01-02T15:18:03.588Z</lastmod>
+        <lastmod>2020-01-05T09:31:33.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/freeboard/</loc>
-        <lastmod>2020-01-02T15:18:03.588Z</lastmod>
+        <lastmod>2020-01-05T09:31:33.601Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/liv/</loc>
-        <lastmod>2020-01-02T15:18:03.183Z</lastmod>
+        <lastmod>2020-01-05T09:31:33.243Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/aws/</loc>
-        <lastmod>2020-01-02T15:18:00.282Z</lastmod>
+        <lastmod>2020-01-05T09:31:31.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/setting/</loc>
-        <lastmod>2020-01-02T15:18:00.282Z</lastmod>
+        <lastmod>2020-01-05T09:31:31.540Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steemmonsters/</loc>
-        <lastmod>2020-01-02T15:18:00.256Z</lastmod>
+        <lastmod>2020-01-05T09:31:31.517Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tripsteem/</loc>
-        <lastmod>2020-01-02T15:17:58.711Z</lastmod>
+        <lastmod>2020-01-05T09:31:30.335Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sct-ubi/</loc>
-        <lastmod>2020-01-02T15:17:57.333Z</lastmod>
+        <lastmod>2020-01-05T09:31:29.123Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/art/</loc>
-        <lastmod>2020-01-02T15:17:56.911Z</lastmod>
+        <lastmod>2020-01-05T09:31:28.740Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/photo/</loc>
-        <lastmod>2020-01-02T15:17:56.911Z</lastmod>
+        <lastmod>2020-01-05T09:31:28.740Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/suggest/</loc>
-        <lastmod>2020-01-02T15:17:56.875Z</lastmod>
+        <lastmod>2020-01-05T09:31:28.708Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-english/</loc>
-        <lastmod>2020-01-02T15:17:54.925Z</lastmod>
+        <lastmod>2020-01-05T09:31:27.186Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-event/</loc>
-        <lastmod>2020-01-02T15:17:54.925Z</lastmod>
+        <lastmod>2020-01-05T09:31:27.186Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/mini/</loc>
-        <lastmod>2020-01-02T15:17:53.862Z</lastmod>
+        <lastmod>2020-01-05T09:31:26.320Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/habit/</loc>
-        <lastmod>2020-01-02T15:17:52.620Z</lastmod>
+        <lastmod>2020-01-05T09:31:25.317Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-dapp/</loc>
-        <lastmod>2020-01-02T15:17:52.197Z</lastmod>
+        <lastmod>2020-01-05T09:31:24.979Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/bnw100/</loc>
-        <lastmod>2020-01-02T15:17:51.814Z</lastmod>
+        <lastmod>2020-01-05T09:31:24.508Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steem-engine/</loc>
-        <lastmod>2020-01-02T15:17:51.729Z</lastmod>
+        <lastmod>2020-01-05T09:31:24.435Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/weedcash/</loc>
-        <lastmod>2020-01-02T15:17:51.323Z</lastmod>
+        <lastmod>2020-01-05T09:31:24.087Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/test/</loc>
-        <lastmod>2020-01-02T15:17:51.323Z</lastmod>
+        <lastmod>2020-01-05T09:31:24.087Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tooza/</loc>
-        <lastmod>2020-01-02T15:17:49.973Z</lastmod>
+        <lastmod>2020-01-05T09:31:23.119Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/movie/</loc>
-        <lastmod>2020-01-02T15:17:49.605Z</lastmod>
+        <lastmod>2020-01-05T09:31:22.739Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/bestmovie/</loc>
-        <lastmod>2020-01-02T15:17:49.605Z</lastmod>
+        <lastmod>2020-01-05T09:31:22.739Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-writing/</loc>
-        <lastmod>2020-01-02T15:17:47.576Z</lastmod>
+        <lastmod>2020-01-05T09:31:20.433Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jjangjjangman/</loc>
-        <lastmod>2020-01-02T15:17:47.576Z</lastmod>
+        <lastmod>2020-01-05T09:31:20.433Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tasteem-kr/</loc>
-        <lastmod>2020-01-02T15:17:46.861Z</lastmod>
+        <lastmod>2020-01-05T09:31:19.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tasteem/</loc>
-        <lastmod>2020-01-02T15:17:46.861Z</lastmod>
+        <lastmod>2020-01-05T09:31:19.781Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/coinkorea/</loc>
-        <lastmod>2020-01-02T15:17:45.982Z</lastmod>
+        <lastmod>2020-01-05T09:31:18.994Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-food/</loc>
-        <lastmod>2020-01-02T15:17:45.273Z</lastmod>
+        <lastmod>2020-01-05T09:31:18.259Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/basic/</loc>
-        <lastmod>2020-01-02T15:17:44.798Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.701Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tutorial/</loc>
-        <lastmod>2020-01-02T15:17:44.798Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.701Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/ai/</loc>
-        <lastmod>2020-01-02T15:17:44.776Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.679Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/toy/</loc>
-        <lastmod>2020-01-02T15:17:44.776Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.679Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steemhunt/</loc>
-        <lastmod>2020-01-02T15:17:44.776Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.679Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/robot/</loc>
-        <lastmod>2020-01-02T15:17:44.776Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.679Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/diary/</loc>
-        <lastmod>2020-01-02T15:17:44.258Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.354Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/busy-jjangjjangman/</loc>
-        <lastmod>2020-01-02T15:17:44.242Z</lastmod>
+        <lastmod>2020-01-05T09:31:17.342Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/buk/</loc>
-        <lastmod>2020-01-02T15:17:42.861Z</lastmod>
+        <lastmod>2020-01-05T09:31:16.406Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/iot/</loc>
-        <lastmod>2020-01-02T15:17:42.459Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.911Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-study/</loc>
-        <lastmod>2020-01-02T15:17:42.459Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.911Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/prototype/</loc>
-        <lastmod>2020-01-02T15:17:42.414Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/development/</loc>
-        <lastmod>2020-01-02T15:17:42.414Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/utopian-io/</loc>
-        <lastmod>2020-01-02T15:17:42.414Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.874Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-newbie/</loc>
-        <lastmod>2020-01-02T15:17:41.951Z</lastmod>
+        <lastmod>2020-01-05T09:31:15.449Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/wordpress/</loc>
-        <lastmod>2020-01-02T15:17:41.239Z</lastmod>
+        <lastmod>2020-01-05T09:31:14.820Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/eosknights/</loc>
-        <lastmod>2020-01-02T15:17:40.499Z</lastmod>
+        <lastmod>2020-01-05T09:31:14.182Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/eos/</loc>
-        <lastmod>2020-01-02T15:17:40.499Z</lastmod>
+        <lastmod>2020-01-05T09:31:14.182Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-game/</loc>
-        <lastmod>2020-01-02T15:17:40.499Z</lastmod>
+        <lastmod>2020-01-05T09:31:14.182Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/ros/</loc>
-        <lastmod>2020-01-02T15:17:39.638Z</lastmod>
+        <lastmod>2020-01-05T09:31:13.811Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/svn/</loc>
-        <lastmod>2020-01-02T15:17:38.518Z</lastmod>
+        <lastmod>2020-01-05T09:31:12.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/git/</loc>
-        <lastmod>2020-01-02T15:17:38.518Z</lastmod>
+        <lastmod>2020-01-05T09:31:12.578Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/dapp/</loc>
-        <lastmod>2020-01-02T15:17:38.443Z</lastmod>
+        <lastmod>2020-01-05T09:31:12.512Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-daily/</loc>
-        <lastmod>2020-01-02T15:17:37.978Z</lastmod>
+        <lastmod>2020-01-05T09:31:12.108Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steempress/</loc>
-        <lastmod>2020-01-02T15:17:37.173Z</lastmod>
+        <lastmod>2020-01-05T09:31:11.400Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/smarthome/</loc>
-        <lastmod>2020-01-02T15:17:36.753Z</lastmod>
+        <lastmod>2020-01-05T09:31:11.025Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/dclick/</loc>
-        <lastmod>2020-01-02T15:17:35.547Z</lastmod>
+        <lastmod>2020-01-05T09:31:09.991Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/warpsteem/</loc>
-        <lastmod>2020-01-02T15:17:35.510Z</lastmod>
+        <lastmod>2020-01-05T09:31:09.959Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/hello/</loc>
-        <lastmod>2020-01-02T15:17:34.742Z</lastmod>
+        <lastmod>2020-01-05T09:31:09.273Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-oversea/</loc>
-        <lastmod>2020-01-02T15:17:33.270Z</lastmod>
+        <lastmod>2020-01-05T09:31:07.595Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/daily/</loc>
-        <lastmod>2020-01-02T15:17:32.074Z</lastmod>
+        <lastmod>2020-01-05T09:31:06.558Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/tech/</loc>
-        <lastmod>2020-01-02T15:17:30.836Z</lastmod>
+        <lastmod>2020-01-05T09:31:05.065Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-arduino/</loc>
-        <lastmod>2020-01-02T15:17:30.321Z</lastmod>
+        <lastmod>2020-01-05T09:31:04.767Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/python/</loc>
-        <lastmod>2020-01-02T15:17:29.297Z</lastmod>
+        <lastmod>2020-01-05T09:31:04.059Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/raspberrypi/</loc>
-        <lastmod>2020-01-02T15:17:28.654Z</lastmod>
+        <lastmod>2020-01-05T09:31:03.053Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/webtoon/</loc>
-        <lastmod>2020-01-02T15:17:28.294Z</lastmod>
+        <lastmod>2020-01-05T09:31:02.739Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/marvel/</loc>
-        <lastmod>2020-01-02T15:17:27.921Z</lastmod>
+        <lastmod>2020-01-05T09:31:02.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/product/</loc>
-        <lastmod>2020-01-02T15:17:27.921Z</lastmod>
+        <lastmod>2020-01-05T09:31:02.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kids/</loc>
-        <lastmod>2020-01-02T15:17:27.921Z</lastmod>
+        <lastmod>2020-01-05T09:31:02.425Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/leetcode/</loc>
-        <lastmod>2020-01-02T15:17:27.510Z</lastmod>
+        <lastmod>2020-01-05T09:31:02.052Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-market/</loc>
-        <lastmod>2020-01-02T15:17:27.135Z</lastmod>
+        <lastmod>2020-01-05T09:31:01.728Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/technology/</loc>
-        <lastmod>2020-01-02T15:17:25.427Z</lastmod>
+        <lastmod>2020-01-05T09:31:00.691Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/coding/</loc>
-        <lastmod>2020-01-02T15:17:25.427Z</lastmod>
+        <lastmod>2020-01-05T09:31:00.691Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steemitnamechallenge/</loc>
-        <lastmod>2020-01-02T15:17:23.346Z</lastmod>
+        <lastmod>2020-01-05T09:30:59.134Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/roys-market/</loc>
-        <lastmod>2020-01-02T15:17:22.998Z</lastmod>
+        <lastmod>2020-01-05T09:30:58.822Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steemfighter/</loc>
-        <lastmod>2020-01-02T15:17:22.617Z</lastmod>
+        <lastmod>2020-01-05T09:30:58.483Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/roys-marekt/</loc>
-        <lastmod>2020-01-02T15:17:21.841Z</lastmod>
+        <lastmod>2020-01-05T09:30:57.808Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jiwon31/</loc>
-        <lastmod>2020-01-02T15:17:16.669Z</lastmod>
+        <lastmod>2020-01-05T09:30:53.325Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jiwon30/</loc>
-        <lastmod>2020-01-02T15:17:13.793Z</lastmod>
+        <lastmod>2020-01-05T09:30:50.815Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/busu/</loc>
-        <lastmod>2020-01-02T15:17:12.103Z</lastmod>
+        <lastmod>2020-01-05T09:30:49.303Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jacobyu/</loc>
-        <lastmod>2020-01-02T15:17:09.776Z</lastmod>
+        <lastmod>2020-01-05T09:30:47.353Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jiwon27/</loc>
-        <lastmod>2020-01-02T15:17:06.706Z</lastmod>
+        <lastmod>2020-01-05T09:30:44.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steepshot/</loc>
-        <lastmod>2020-01-02T15:17:06.706Z</lastmod>
+        <lastmod>2020-01-05T09:30:44.803Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/muksteem/</loc>
-        <lastmod>2020-01-02T15:17:04.741Z</lastmod>
+        <lastmod>2020-01-05T09:30:43.072Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/ourselves/</loc>
-        <lastmod>2020-01-02T15:17:04.362Z</lastmod>
+        <lastmod>2020-01-05T09:30:42.742Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/photography/</loc>
-        <lastmod>2020-01-02T15:17:04.011Z</lastmod>
+        <lastmod>2020-01-05T09:30:42.428Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/newbie/</loc>
-        <lastmod>2020-01-02T15:17:04.011Z</lastmod>
+        <lastmod>2020-01-05T09:30:42.428Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jiwon25/</loc>
-        <lastmod>2020-01-02T15:17:03.687Z</lastmod>
+        <lastmod>2020-01-05T09:30:42.100Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sevendaybnwchallenge/</loc>
-        <lastmod>2020-01-02T15:17:03.687Z</lastmod>
+        <lastmod>2020-01-05T09:30:42.100Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/photograpy/</loc>
-        <lastmod>2020-01-02T15:17:03.302Z</lastmod>
+        <lastmod>2020-01-05T09:30:41.703Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-life/</loc>
-        <lastmod>2020-01-02T15:17:00.499Z</lastmod>
+        <lastmod>2020-01-05T09:30:39.216Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/eastsea/</loc>
-        <lastmod>2020-01-02T15:16:59.628Z</lastmod>
+        <lastmod>2020-01-05T09:30:38.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/sunrise/</loc>
-        <lastmod>2020-01-02T15:16:59.628Z</lastmod>
+        <lastmod>2020-01-05T09:30:38.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/snek/</loc>
-        <lastmod>2020-01-02T15:16:59.628Z</lastmod>
+        <lastmod>2020-01-05T09:30:38.539Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-friendship/</loc>
-        <lastmod>2020-01-02T15:16:59.280Z</lastmod>
+        <lastmod>2020-01-05T09:30:38.234Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-iot/</loc>
-        <lastmod>2020-01-02T15:16:57.986Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.555Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-ai/</loc>
-        <lastmod>2020-01-02T15:16:57.986Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.555Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jiwon23/</loc>
-        <lastmod>2020-01-02T15:16:57.986Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.555Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-news/</loc>
-        <lastmod>2020-01-02T15:16:57.936Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.514Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/steem-dev/</loc>
-        <lastmod>2020-01-02T15:16:57.526Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/face-recognition/</loc>
-        <lastmod>2020-01-02T15:16:57.526Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/faceid/</loc>
-        <lastmod>2020-01-02T15:16:57.526Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/iphone/</loc>
-        <lastmod>2020-01-02T15:16:57.526Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/face/</loc>
-        <lastmod>2020-01-02T15:16:57.526Z</lastmod>
+        <lastmod>2020-01-05T09:30:37.006Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/graduate/</loc>
-        <lastmod>2020-01-02T15:16:57.170Z</lastmod>
+        <lastmod>2020-01-05T09:30:36.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-work/</loc>
-        <lastmod>2020-01-02T15:16:57.170Z</lastmod>
+        <lastmod>2020-01-05T09:30:36.677Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-join/</loc>
-        <lastmod>2020-01-02T15:16:56.801Z</lastmod>
+        <lastmod>2020-01-05T09:30:36.351Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-guide/</loc>
-        <lastmod>2020-01-02T15:16:56.801Z</lastmod>
+        <lastmod>2020-01-05T09:30:36.351Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/vision/</loc>
-        <lastmod>2020-01-02T15:16:56.056Z</lastmod>
+        <lastmod>2020-01-05T09:30:35.724Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/jacob/</loc>
-        <lastmod>2020-01-02T15:16:56.056Z</lastmod>
+        <lastmod>2020-01-05T09:30:35.724Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/kr-financial/</loc>
-        <lastmod>2020-01-02T15:16:55.682Z</lastmod>
+        <lastmod>2020-01-05T09:30:35.392Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/wordpress-steem/</loc>
-        <lastmod>2020-01-02T15:16:55.318Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.946Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/love/</loc>
-        <lastmod>2020-01-02T15:16:55.318Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.946Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/littlefigther/</loc>
-        <lastmod>2020-01-02T15:16:54.995Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.653Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/lf2/</loc>
-        <lastmod>2020-01-02T15:16:54.995Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.653Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/f-lf2/</loc>
-        <lastmod>2020-01-02T15:16:54.995Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.653Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/introducemyself/</loc>
-        <lastmod>2020-01-02T15:16:54.659Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.347Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/me/</loc>
-        <lastmod>2020-01-02T15:16:54.247Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/about/</loc>
-        <lastmod>2020-01-02T15:16:54.247Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://jacobyu.net/tags/profile/</loc>
-        <lastmod>2020-01-02T15:16:54.247Z</lastmod>
+        <lastmod>2020-01-05T09:30:34.034Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
