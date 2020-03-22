@@ -81,7 +81,7 @@ Also, I will try to make IoTSwitcher using more cheaper stuff.
 In software, I will develop alarm function and web-server for using IoTSwitcher easily.
 
 - How to contribute?
-If you have any questions, please comment or contactÂ <a href="https://steemit.com/@jacobyu">@jacobyu</a>
+If you have any questions, please comment or contact <a href="https://steemit.com/@jacobyu">@jacobyu</a>
 Everyone who wants to make it together, please contact me.
 
 #### GitHub Account
