@@ -8,8 +8,28 @@
     <atom:link href="/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>Dev, Book, Blockchain</description>
-    <pubDate>Wed, 22 Jul 2020 14:08:49 GMT</pubDate>
+    <pubDate>Fri, 24 Jul 2020 14:10:19 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>[선착순] 스팀다이어리 팀원 뽑습니다. 팀 이름은 한국캐롯 (Korea carrot) 입니다.</title>
+      <link>https://jacobyu.net/%EC%84%A0%EC%B0%A9%EC%88%9C-%EC%8A%A4%ED%8C%80%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC-%ED%8C%80%EC%9B%90-%EB%BD%91%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%8C%80-%EC%9D%B4%EB%A6%84%EC%9D%80-%ED%95%9C%EA%B5%AD%EC%BA%90%EB%A1%AF-Korea-carrot-%EC%9E%85%EB%8B%88%EB%8B%A4/</link>
+      <guid>https://jacobyu.net/%EC%84%A0%EC%B0%A9%EC%88%9C-%EC%8A%A4%ED%8C%80%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC-%ED%8C%80%EC%9B%90-%EB%BD%91%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%8C%80-%EC%9D%B4%EB%A6%84%EC%9D%80-%ED%95%9C%EA%B5%AD%EC%BA%90%EB%A1%AF-Korea-carrot-%EC%9E%85%EB%8B%88%EB%8B%A4/</guid>
+      <pubDate>Thu, 23 Jul 2020 15:00:57 GMT</pubDate>
+      <description>
+      
+        
+        
+          &lt;p&gt;This is a cross post of &lt;a href=&quot;/@jacobyu/korea-carrot&quot;&gt;@jacobyu/korea-carrot&lt;/a&gt; by @jacobyu.&lt;br&gt;&lt;br&gt;&amp;#xB2E4;&amp;#xC774;&amp;#xC5B4;&amp;#xB9AC;&amp;#
+        
+      
+      </description>
+      
+      
+      <content:encoded><![CDATA[<p>This is a cross post of <a href="/@jacobyu/korea-carrot">@jacobyu/korea-carrot</a> by @jacobyu.<br><br>&#xB2E4;&#xC774;&#xC5B4;&#xB9AC;&#xAC8C;&#xC784; &#xAC19;&#xC774; &#xCC38;&#xC5EC;&#xD558;&#xC2E4;&#xBD84;~</p><hr><p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/korea-carrot-hive-196917" target="_blank" rel="noopener">&#x2018;[&#xC120;&#xCC29;&#xC21C;] &#xC2A4;&#xD300;&#xB2E4;&#xC774;&#xC5B4;&#xB9AC; &#xD300;&#xC6D0; &#xBF51;&#xC2B5;&#xB2C8;&#xB2E4;. &#xD300; &#xC774;&#xB984;&#xC740; &#xD55C;&#xAD6D;&#xCE90;&#xB86F; (Korea carrot) &#xC785;&#xB2C8;&#xB2E4;.&#x2019;</a></p><script>        document.querySelectorAll('.not-gallery-item')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content:encoded>
+      
+      <comments>https://jacobyu.net/%EC%84%A0%EC%B0%A9%EC%88%9C-%EC%8A%A4%ED%8C%80%EB%8B%A4%EC%9D%B4%EC%96%B4%EB%A6%AC-%ED%8C%80%EC%9B%90-%EB%BD%91%EC%8A%B5%EB%8B%88%EB%8B%A4-%ED%8C%80-%EC%9D%B4%EB%A6%84%EC%9D%80-%ED%95%9C%EA%B5%AD%EC%BA%90%EB%A1%AF-Korea-carrot-%EC%9E%85%EB%8B%88%EB%8B%A4/#disqus_thread</comments>
+    </item>
     
     <item>
       <title>EOSDT 소개글 모음</title>
@@ -398,26 +418,6 @@
       <content:encoded><![CDATA[<p>&#xC800;&#xBC88;&#xC5D0; &#xC9C4;&#xC9DC;&#xBD80;&#xC790;, &#xAC00;&#xC9DC;&#xBD80;&#xC790;&#xB97C; &#xC77D;&#xACE0;<br>&#xAC1C;&#xC778; &#xC7AC;&#xBB34;&#xC7AC;&#xD45C;&#xB97C; &#xB9CC;&#xB4E4;&#xC5C8;&#xC2B5;&#xB2C8;&#xB2E4;.</p><p>&#xD55C;&#xB2EC;&#xC5D0; 1&#xBC88;, &#xADF8;&#xB9AC;&#xACE0; &#xD604;&#xC7AC;&#xC758; &#xB0B4; &#xC790;&#xC0B0;&#xC774; &#xC5BC;&#xB9C8;&#xC778;&#xC9C0;<br>&#xC27D;&#xAC8C; &#xCCB4;&#xD06C;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. &#xADF9;&#xC801;&#xC73C;&#xB85C; &#xB9CE;&#xC774; &#xBC14;&#xB00C;&#xC9C0;&#xB294; &#xC54A;&#xC9C0;&#xB9CC;<br>&#xBCF4;&#xB294; &#xC7AC;&#xBBF8;&#xAC00; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;. </p><p>&#xB0B4; &#xC790;&#xC0B0;&#xC744; &#xBCF5;&#xB9AC;&#xB85C; 2&#xBC30;&#xB97C; &#xB9CC;&#xB4DC;&#xB824;&#xBA74;&#xC694;.<br>72/&#xC5F0;&#xC774;&#xC728;&#xC744; &#xD558;&#xBA74; &#xADF8; &#xAE30;&#xAC04;&#xC744; &#xC54C; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4;.</p><p>&#xC608;&#xB97C; &#xB4E4;&#xC5B4;, &#xC5F0;&#xC774;&#xC728; 12&#xD37C;&#xC13C;&#xD2B8;&#xB77C; &#xD558;&#xBA74;&#xC694;.<br>6&#xB144;&#xC815;&#xB3C4;&#xB97C; &#xB9E4;&#xB144; 12&#xD37C;&#xB97C; &#xCC0D;&#xC73C;&#xBA74; &#xB0B4; &#xC790;&#xC0B0;&#xC774; 2&#xBC30;&#xAC00; &#xB429;&#xB2C8;&#xB2E4;.<br>&#xC5F0;&#xC774;&#xC728;&#xB85C; &#xACC4;&#xC0B0;&#xD558;&#xAE30; &#xC2EB;&#xC73C;&#xBA74; &#xB9E4;&#xB2EC;&#xC774;&#xC728;&#xB85C; &#xACC4;&#xC0B0;&#xD574;&#xB3C4;&#xB429;&#xB2C8;&#xB2E4;.</p><p>&#xC544;&#xC9C1; 2&#xB2EC;&#xBC16;&#xC5D0; &#xAE30;&#xB85D;&#xC744; &#xBABB;&#xD588;&#xC9C0;&#xB9CC; &#xAFB8;&#xC900;&#xD788; &#xAE30;&#xB85D;&#xD558;&#xBA74;&#xC11C;<br>&#xD3C9;&#xADE0; &#xC218;&#xC775;&#xB960;&#xC744; &#xACC4;&#xC0B0;&#xD558;&#xBA74;&#xC694;. &#xB098;&#xC758; &#xC790;&#xC0B0;&#xC744; &#xC5B8;&#xC81C; 2&#xBC30;&#xB97C; &#xB9CC;&#xB4E4; &#xC218; &#xC788;&#xC744;&#xC9C0; &#xC608;&#xC0C1;&#xD560; &#xC218; &#xC788;&#xC2B5;&#xB2C8;&#xB2E4; &#x314B;&#x314B;</p><p>&#xBCF4;&#xBA74;&#xC11C; &#xC544; &#xC774;&#xBC88;&#xB2EC;&#xC5D4; &#xC218;&#xC775;&#xC774; &#xBD80;&#xC871;&#xD588;&#xC73C;&#xB2C8;<br>&#xC0DD;&#xD65C;&#xBE44;&#xB97C; &#xC544;&#xAEF4;&#xC11C; &#xD22C;&#xC790;&#xD558;&#xC790;.<br>&#xACC4;&#xD68D;&#xC744; &#xC138;&#xC6B0;&#xB294;&#xB370; &#xB3C4;&#xC6C0;&#xC774; &#xB420;&#xAC70;&#xAC19;&#xB124;&#xC694;.</p><hr><p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/5mm5r1" target="_blank" rel="noopener">&#x2018;&#xC9C4;&#xC9DC;&#xBD80;&#xC790;, &#xAC00;&#xC9DC;&#xBD80;&#xC790; &#xC7AC;&#xBB34;&#xC7AC;&#xD45C;..&#x2019;</a></p><script>        document.querySelectorAll('.not-gallery-item')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content:encoded>
       
       <comments>https://jacobyu.net/%EC%A7%84%EC%A7%9C%EB%B6%80%EC%9E%90-%EA%B0%80%EC%A7%9C%EB%B6%80%EC%9E%90-%EC%9E%AC%EB%AC%B4%EC%9E%AC%ED%91%9C/#disqus_thread</comments>
-    </item>
-    
-    <item>
-      <title>[일기] 하고싶은게 많다.</title>
-      <link>https://jacobyu.net/%EC%9D%BC%EA%B8%B0-%ED%95%98%EA%B3%A0%EC%8B%B6%EC%9D%80%EA%B2%8C-%EB%A7%8E%EB%8B%A4/</link>
-      <guid>https://jacobyu.net/%EC%9D%BC%EA%B8%B0-%ED%95%98%EA%B3%A0%EC%8B%B6%EC%9D%80%EA%B2%8C-%EB%A7%8E%EB%8B%A4/</guid>
-      <pubDate>Tue, 07 Jul 2020 14:19:15 GMT</pubDate>
-      <description>
-      
-        
-        
-          &lt;p&gt;&amp;#xC815;&amp;#xB9D0; &amp;#xD558;&amp;#xACE0;&amp;#xC2F6;&amp;#xC740;&amp;#xAC8C; &amp;#xB9CE;&amp;#xB2E4;.&lt;br&gt;&amp;#xC774;&amp;#xAC83;&amp;#xC800;&amp;#xAC83; &amp;#xD558;&amp;#xACE0;&amp;#xC2F6;&amp;
-        
-      
-      </description>
-      
-      
-      <content:encoded><![CDATA[<p>&#xC815;&#xB9D0; &#xD558;&#xACE0;&#xC2F6;&#xC740;&#xAC8C; &#xB9CE;&#xB2E4;.<br>&#xC774;&#xAC83;&#xC800;&#xAC83; &#xD558;&#xACE0;&#xC2F6;&#xC740;&#xAC8C; &#xB9CE;&#xC740;&#xB370;<br>&#xC2DC;&#xAC04;&#xC774; &#xD55C;&#xC815;&#xC801;&#xC774;&#xB2E4;.</p><p>&#xC5EC;&#xAE30;&#xC11C; &#xD558;&#xACE0;&#xC2F6;&#xC740;&#xAC83;&#xC5D0;&#xB294;<br>&#xC0DD;&#xC0B0;&#xC801;&#xC778;&#xAC83;&#xB3C4; &#xC788;&#xACE0;,<br>&#xBE44;&#xC0DD;&#xC0B0;&#xC801;&#xC778;&#xAC83;&#xB3C4; &#xC788;&#xACE0;<br>&#xC5EC;&#xB7EC;&#xAC00;&#xC9C0;&#xAC00; &#xC788;&#xB2E4;.</p><ol><li>&#xC6B0;&#xC120;&#xC21C;&#xC704;&#xB97C; &#xC815;&#xD558;&#xAE30;</li><li>&#xB2E8;&#xC21C;&#xD788; &#xB0B4;&#xAC00; &#xD558;&#xACE0;&#xC2F6;&#xC740;&#xAC83;&#xC778;&#xC9C0; &#xC810;&#xAC80;&#xD558;&#xAE30;</li><li>&#xC815;&#xB9D0; &#xC218;&#xC694;&#xAC00; &#xC788;&#xB294;&#xAC83;&#xC778;&#xC9C0; &#xD30C;&#xC545;&#xD558;&#xAE30;/ &#xB0B4;&#xC778;&#xC0DD;&#xC5D0; &#xD544;&#xC694;&#xD55C;&#xC9C0;</li><li>&#xB2E4;&#xC2DC; &#xC6B0;&#xC120;&#xC21C;&#xC704; &#xC815;&#xD558;&#xAE30;</li></ol><p>4&#xAC1C;&#xB97C; &#xB3CC;&#xB824;&#xAC00;&#xBA70; &#xC0B4;&#xB824;&#xACE0; &#xB178;&#xB825;&#xC911;&#xC774;&#xB2E4;.<br>&#xC6B0;&#xC120;&#xC21C;&#xC704;&#xAC00; &#xC788;&#xACE0;,<br>&#xC911;&#xC694;&#xD55C;&#xAC78; &#xBA3C;&#xC800;&#xD558;&#xB824;&#xACE0; &#xB178;&#xB825;&#xC911;&#xC774;&#xB2E4;.</p><p>&#xD22C;&#xC790;&#xB294; &#xBD84;&#xC0B0;&#xD22C;&#xC790;&#xD574;&#xC57C;&#xD55C;&#xB2E4;.<br>&#xBD84;&#xC0B0;&#xD22C;&#xC790;&#xD568;&#xC73C;&#xB85C;&#xC368; &#xAC1C;&#xBCC4;&#xC801; &#xB9AC;&#xC2A4;&#xD06C;&#xB97C; &#xC904;&#xC778;&#xB2E4;.<br>&#xC778;&#xC0DD;&#xB3C4; &#xB9C8;&#xCC2C;&#xAC00;&#xC9C0;&#xB85C; &#xBD84;&#xC0B0;&#xD22C;&#xC790;&#xD55C;&#xB2E4;.<br>&#xB300;&#xC2E0; &#xC6B0;&#xC120;&#xC21C;&#xC704;&#xB294; &#xC815;&#xD558;&#xBA74;&#xC11C; &#xD55C;&#xB2E4;.</p><p>&#xB9D0;&#xD55C;&#xAC78; &#xB354; &#xC2E4;&#xCC9C;&#xD574;&#xC57C;&#xD558;&#xB294;&#xB370;&#x2026;.<br>&#xCC45;&#xC5D0;&#xC11C; &#xC77D;&#xC740; &#xB300;&#xB85C; &#xD22C;&#xC790;&#xD558;&#xACE0;, &#xC778;&#xC0DD;&#xC744; &#xC0B4;&#xC544;&#xBD10;&#xC57C;&#xC9C0;..&#x314B;&#x314B;&#x314B;&#x314B;</p><hr><p>This page is synchronized from the post: <a href="https://steempeak.com/@jacobyu/3y9irm" target="_blank" rel="noopener">&#x2018;[&#xC77C;&#xAE30;] &#xD558;&#xACE0;&#xC2F6;&#xC740;&#xAC8C; &#xB9CE;&#xB2E4;.&#x2019;</a></p><script>        document.querySelectorAll('.not-gallery-item')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content:encoded>
-      
-      <comments>https://jacobyu.net/%EC%9D%BC%EA%B8%B0-%ED%95%98%EA%B3%A0%EC%8B%B6%EC%9D%80%EA%B2%8C-%EB%A7%8E%EB%8B%A4/#disqus_thread</comments>
     </item>
     
   </channel>
